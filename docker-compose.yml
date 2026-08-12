@@ -1,0 +1,44 @@
+services:
+  n8n:
+    image: docker.n8n.io/n8nio/n8n:2.31.6
+    container_name: n8n
+  youtube-enricher:
+    build:
+      context: ./youtube-enricher
+    container_name: youtube-enricher
+    restart: unless-stopped
+    expose:
+      - "8080"
+
+    restart: unless-stopped
+
+    ports:
+      - "127.0.0.1:5678:5678"
+
+    env_file:
+      - .env
+
+    environment:
+      - N8N_HOST=arindam-n8n.duckdns.org
+      - N8N_PORT=5678
+      - N8N_PROTOCOL=https
+      - WEBHOOK_URL=https://arindam-n8n.duckdns.org/
+      - N8N_EDITOR_BASE_URL=https://arindam-n8n.duckdns.org/
+      - N8N_RESTRICT_FILE_ACCESS_TO="/files"
+
+    volumes:
+      - ./data:/home/node/.n8n
+      - ./files:/files
+
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost:5678/healthz"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "5"

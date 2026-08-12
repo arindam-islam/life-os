@@ -1,0 +1,26 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# n8n runtime state
+data/
+config/
+
+# Captured/personal data
+files/
+
+# Temporary / accidental files
+The
+*.log
+*.tmp
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Editor
+.vscode/
+.idea/
