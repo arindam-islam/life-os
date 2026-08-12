@@ -15,6 +15,7 @@ The
 *.log
 *.tmp
 .DS_Store
+.pnpm-store/
 
 # Python
 __pycache__/
