@@ -11,9 +11,14 @@ step.
 The existing n8n image, loopback-only port mapping, `.env` injection, persistent
 workflow/credential data (`./data:/home/node/.n8n`), and shared files
 (`./files:/files`) are preserved. Variables used by OmniRoute can continue to
-come from the ignored `.env` file or n8n's persisted credential store. The
-default Compose network is not marked internal, so n8n retains outbound access
-to OmniRoute and other configured APIs.
+come from the ignored `.env` file or n8n's persisted credential store.
+
+The default network is the pre-existing external network `n8n_default`.
+Compose attaches n8n and the enricher to it but does not create, recreate, or
+delete it. The independently managed `omniroute` container must remain attached
+to this network. Never use `docker compose up --remove-orphans` or `docker
+compose down --remove-orphans` on this project because OmniRoute may carry old
+Compose project labels even though it is now independently managed.
 
 ### YouTube enricher v1
 
@@ -49,13 +54,20 @@ Validate the configuration with a safe environment template:
 N8N_ENV_FILE=.env.example docker compose --env-file .env.example config
 ```
 
-Build and run locally when a Docker daemon is available:
+Build and deploy only the enricher when a Docker daemon and the external
+`n8n_default` network are available. Targeting the service avoids recreating the
+already-running n8n container:
 
 ```sh
 docker compose build youtube-enricher
-docker compose up -d
-docker compose exec n8n wget -qO- http://youtube-enricher:8080/health
+docker compose up -d --no-deps youtube-enricher
+docker exec n8n wget -qO- http://youtube-enricher:8080/health
 ```
+
+A full `docker compose up -d --build` does not manage the external network or
+the separately managed OmniRoute container, but it may recreate n8n when its
+tracked configuration changes. That causes downtime and is unnecessary for the
+initial enricher rollout.
 
 Run deterministic API tests inside the built image:
 

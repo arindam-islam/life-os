@@ -9,11 +9,11 @@ services:
       - path: ${N8N_ENV_FILE:-.env}
         required: true
     environment:
-      N8N_HOST: ${N8N_HOST}
+      N8N_HOST: ${N8N_HOST:?N8N_HOST must be set}
       N8N_PORT: ${N8N_PORT:-5678}
       N8N_PROTOCOL: ${N8N_PROTOCOL:-https}
-      WEBHOOK_URL: ${WEBHOOK_URL}
-      N8N_EDITOR_BASE_URL: ${N8N_EDITOR_BASE_URL}
+      WEBHOOK_URL: ${WEBHOOK_URL:?WEBHOOK_URL must be set}
+      N8N_EDITOR_BASE_URL: ${N8N_EDITOR_BASE_URL:?N8N_EDITOR_BASE_URL must be set}
       N8N_RESTRICT_FILE_ACCESS_TO: ${N8N_RESTRICT_FILE_ACCESS_TO:-/files}
     volumes:
       - ./data:/home/node/.n8n
@@ -57,3 +57,8 @@ services:
       options:
         max-size: "10m"
         max-file: "3"
+
+networks:
+  default:
+    name: n8n_default
+    external: true
