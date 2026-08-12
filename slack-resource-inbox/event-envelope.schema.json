@@ -1,0 +1,177 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://life-os.local/schemas/slack-resource-inbox-event-v1.json",
+  "title": "Life OS Slack Resource Inbox Event",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "source",
+    "content",
+    "primary_url",
+    "resources",
+    "source_metadata",
+    "captured_at",
+    "deduplication_key",
+    "routing"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "source": {
+      "const": "slack_resource_inbox"
+    },
+    "content": {
+      "type": "string"
+    },
+    "primary_url": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri"
+    },
+    "resources": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "$ref": "#/$defs/link"
+          },
+          {
+            "$ref": "#/$defs/slack_file"
+          }
+        ]
+      }
+    },
+    "source_metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "workspace_id",
+        "channel_id",
+        "channel_name",
+        "message_ts",
+        "thread_ts",
+        "author_id"
+      ],
+      "properties": {
+        "workspace_id": {
+          "const": "T0BLLQ18E5C"
+        },
+        "channel_id": {
+          "const": "C0BPQBNTK8R"
+        },
+        "channel_name": {
+          "const": "life-os-resource-inbox"
+        },
+        "message_ts": {
+          "type": "string",
+          "minLength": 1
+        },
+        "thread_ts": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "author_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "captured_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "deduplication_key": {
+      "type": "string",
+      "pattern": "^slack:T0BLLQ18E5C:C0BPQBNTK8R:.+$"
+    },
+    "routing": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "current_stage",
+        "next_stages",
+        "approval_required_for_external_actions"
+      ],
+      "properties": {
+        "current_stage": {
+          "const": "ingestion"
+        },
+        "next_stages": {
+          "const": [
+            "cleaning",
+            "decision"
+          ]
+        },
+        "approval_required_for_external_actions": {
+          "const": true
+        }
+      }
+    }
+  },
+  "$defs": {
+    "link": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "url"
+      ],
+      "properties": {
+        "type": {
+          "const": "link"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    },
+    "slack_file": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "id",
+        "name",
+        "mime_type",
+        "size_bytes"
+      ],
+      "properties": {
+        "type": {
+          "const": "slack_file"
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "mime_type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "size_bytes": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        }
+      }
+    }
+  }
+}

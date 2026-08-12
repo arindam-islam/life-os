@@ -1,0 +1,98 @@
+{
+  "name": "Life OS - Slack Resource Inbox Adapter",
+  "nodes": [
+    {
+      "parameters": {
+        "trigger": [
+          "message"
+        ],
+        "watchWorkspace": false,
+        "channelId": {
+          "__rl": true,
+          "value": "C0BPQBNTK8R",
+          "mode": "id",
+          "cachedResultName": "life-os-resource-inbox"
+        },
+        "options": {
+          "resolveIds": false
+        }
+      },
+      "type": "n8n-nodes-base.slackTrigger",
+      "typeVersion": 1,
+      "position": [
+        -480,
+        0
+      ],
+      "id": "9a03e8bc-f3f9-4ad4-aad7-6b4f33829d6e",
+      "name": "Watch Private Resource Inbox",
+      "webhookId": "1f36a5c9-298f-43cb-9cf0-78431d3e5f9c"
+    },
+    {
+      "parameters": {
+        "jsCode": "const WORKSPACE_ID = 'T0BLLQ18E5C';\nconst CHANNEL_ID = 'C0BPQBNTK8R';\nconst CHANNEL_NAME = 'life-os-resource-inbox';\nconst IGNORED_SUBTYPES = new Set([\n  'bot_message',\n  'message_changed',\n  'message_deleted',\n  'channel_join',\n  'channel_leave',\n]);\n\nfunction cleanUrl(value) {\n  return value.replace(/[>.,;:!?\\]})]+$/g, '');\n}\n\nfunction extractLinks(text) {\n  const links = [];\n  const slackLinkPattern = /<(https?:\\/\\/[^>|]+)(?:\\|[^>]+)?>/g;\n  const plainLinkPattern = /https?:\\/\\/[^\\s<>()]+/g;\n  for (const match of text.matchAll(slackLinkPattern)) links.push(cleanUrl(match[1]));\n  for (const match of text.matchAll(plainLinkPattern)) links.push(cleanUrl(match[0]));\n  return [...new Set(links)];\n}\n\nreturn $input.all().flatMap((item) => {\n  const event = item.json?.event ?? item.json ?? {};\n  const message = event.message ?? event;\n  const channelId = event.channel ?? event.channel_id ?? event.item?.channel;\n  const subtype = event.subtype ?? message.subtype ?? null;\n  const messageTs = message.ts ?? event.ts;\n  const threadTs = message.thread_ts ?? event.thread_ts ?? null;\n  const authorId = message.user ?? event.user ?? null;\n  const text = typeof message.text === 'string' ? message.text.trim() : '';\n  const files = Array.isArray(message.files ?? event.files) ? (message.files ?? event.files) : [];\n\n  if (channelId !== CHANNEL_ID || !messageTs) return [];\n  if (event.bot_id || message.bot_id || IGNORED_SUBTYPES.has(subtype)) return [];\n  if (!text && files.length === 0) return [];\n\n  const links = extractLinks(text);\n  const fileResources = files\n    .filter((file) => file && typeof file.id === 'string')\n    .map((file) => ({\n      type: 'slack_file',\n      id: file.id,\n      name: typeof file.name === 'string' ? file.name : null,\n      mime_type: typeof file.mimetype === 'string' ? file.mimetype : null,\n      size_bytes: Number.isFinite(file.size) ? file.size : null,\n    }));\n  const timestampSeconds = Number.parseFloat(messageTs);\n  const capturedAt = Number.isFinite(timestampSeconds)\n    ? new Date(timestampSeconds * 1000).toISOString()\n    : new Date().toISOString();\n\n  return [{\n    json: {\n      schema_version: '1.0',\n      source: 'slack_resource_inbox',\n      content: text,\n      primary_url: links[0] ?? null,\n      resources: [\n        ...links.map((url) => ({ type: 'link', url })),\n        ...fileResources,\n      ],\n      source_metadata: {\n        workspace_id: WORKSPACE_ID,\n        channel_id: CHANNEL_ID,\n        channel_name: CHANNEL_NAME,\n        message_ts: String(messageTs),\n        thread_ts: threadTs ? String(threadTs) : null,\n        author_id: authorId ? String(authorId) : null,\n      },\n      captured_at: capturedAt,\n      deduplication_key: `slack:${WORKSPACE_ID}:${CHANNEL_ID}:${messageTs}`,\n      routing: {\n        current_stage: 'ingestion',\n        next_stages: ['cleaning', 'decision'],\n        approval_required_for_external_actions: true,\n      },\n    },\n  }];\n});"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -224,
+        0
+      ],
+      "id": "75854466-a216-405d-810d-727ac7200b33",
+      "name": "Normalize and Guard Inbox Event"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:5678/webhook/life-os/capture",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({\n  raw_input: $json.content,\n  normalized_input: $json.content,\n  content: $json.content,\n  source_type: 'slack_resource_inbox',\n  source_url: $json.primary_url,\n  title: ($json.content || 'Slack resource').split('\\n')[0].slice(0, 160),\n  type: 'resource',\n  deduplication_key: $json.deduplication_key,\n  source_metadata: $json.source_metadata\n}) }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        48,
+        0
+      ],
+      "id": "397b969e-4df0-44cc-bc36-a7ee47fd7bdf",
+      "name": "Forward to Authenticated Capture Webhook"
+    }
+  ],
+  "connections": {
+    "Watch Private Resource Inbox": {
+      "main": [
+        [
+          {
+            "node": "Normalize and Guard Inbox Event",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Normalize and Guard Inbox Event": {
+      "main": [
+        [
+          {
+            "node": "Forward to Authenticated Capture Webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "pinData": {},
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "3265b45c-7884-4786-8275-1b3bc75643e4",
+  "meta": {
+    "templateCredsSetupCompleted": false
+  },
+  "tags": []
+}
