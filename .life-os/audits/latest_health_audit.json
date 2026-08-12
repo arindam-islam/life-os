@@ -1,0 +1,67 @@
+{
+  "audit_timestamp": "2026-08-12T19:04:00+05:30",
+  "auditor": "Security & Reliability Reviewer / QA Agent",
+  "verification_method": "READ_ONLY_SSH_RUNTIME_EXECUTION",
+  "production_host": "life-os-prod",
+  "containers": {
+    "n8n": {
+      "id": "fa27ae3131bc",
+      "image": "docker.n8n.io/n8nio/n8n:2.31.6",
+      "status": "Up 3 hours (healthy)",
+      "health_endpoint": "http://127.0.0.1:5678/healthz",
+      "health_response": {"status":"ok"},
+      "verification": "VERIFIED_LIVE"
+    },
+    "omniroute": {
+      "id": "afe64aa1a646",
+      "image": "diegosouzapw/omniroute:latest",
+      "status": "Up 30 hours (healthy)",
+      "health_endpoint": "http://127.0.0.1:20128/health",
+      "verification": "VERIFIED_LIVE"
+    },
+    "youtube-enricher": {
+      "id": "5a6e28594a4d",
+      "image": "n8n-youtube-enricher",
+      "status": "Up 4 hours (healthy)",
+      "health_endpoint": "http://youtube-enricher:8080/health",
+      "health_response": {
+        "dependencies": {
+          "deno": {"available": true},
+          "yt_dlp": {"available": true, "version": "2026.7.4"}
+        },
+        "ok": true,
+        "service": "youtube-enricher",
+        "version": "1.0.0"
+      },
+      "verification": "VERIFIED_LIVE"
+    },
+    "status-bridge": {
+      "status": "NOT_DEPLOYED",
+      "verification": "VERIFIED_LOCAL_ONLY"
+    }
+  },
+  "n8n_workflows": [
+    {
+      "id": "ssr1i4pTDBoKsCDt",
+      "name": "Life OS - Capture Processor",
+      "active": 1,
+      "verification": "VERIFIED_ACTIVE"
+    },
+    {
+      "id": "PSfOZlGrwT6WUS3u",
+      "name": "Slack Incident Actions",
+      "active": 1,
+      "verification": "VERIFIED_ACTIVE"
+    }
+  ],
+  "telemetry_24h": {
+    "total_executions": 42,
+    "success_executions": 36,
+    "error_executions": 6,
+    "source": "n8n_sqlite_execution_entity"
+  },
+  "reverse_proxy_routes": {
+    "/slack/actions": "127.0.0.1:8787 (Active)",
+    "/life-os/status": "NOT_CONFIGURED"
+  }
+}

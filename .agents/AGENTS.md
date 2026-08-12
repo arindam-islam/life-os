@@ -5,7 +5,7 @@
 When information conflicts across documents or context, strictly follow this order of precedence:
 
 1. Product owner's latest explicit instruction.
-2. `/Users/ari/Documents/life-os/AGENTS.md` (this document).
+2. `.agents/AGENTS.md` & `AGENTS.md` (this document).
 3. A current task-specific approval or runbook.
 4. `LIFE_OS_MASTER.md` (canonical master reference).
 5. Component READMEs and repository history.

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "syn-cap-001",
+    "source_type": "SYNTHETIC_TEST",
+    "title": "Synthetic AI Research Paper Handoff",
+    "source_url": "https://example.org/synthetic-paper-12345",
+    "content": "This is a synthetic test document containing sanitized sample data for staging pipeline verification.",
+    "is_sanitized": true
+  },
+  {
+    "id": "syn-cap-002",
+    "source_type": "SYNTHETIC_TEST",
+    "title": "Synthetic Article Capture",
+    "source_url": "https://example.com/synthetic-article-67890",
+    "content": "Sanitized test content verifying normalization, deduplication, and structured payload extraction.",
+    "is_sanitized": true
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "updated_at": "2026-08-12T18:58:48+05:30",
+  "approved_actions": [
+    {
+      "action": "Deploy YouTube Enrichment v1",
+      "status": "COMPLETED",
+      "date": "2026-08-12"
+    },
+    {
+      "action": "Production repair for .env and /files",
+      "status": "COMPLETED",
+      "date": "2026-08-12"
+    }
+  ],
+  "paused_actions": [
+    {
+      "action": "Connect Slack Resource Inbox",
+      "status": "PAUSED",
+      "reason": "Global stop instruction received; awaiting explicit RESUME SLACK RESOURCE INBOX CONNECTION instruction"
+    },
+    {
+      "action": "Connect Live Dashboard Bridge",
+      "status": "NOT_APPROVED",
+      "reason": "Code prepared locally; awaiting explicit APPROVE LIVE DASHBOARD CONNECTION instruction"
+    },
+    {
+      "action": "Career Ops Pipeline",
+      "status": "PAUSED",
+      "reason": "Awaiting founder workflow explanation"
+    }
+  ],
+  "approval_gates": {
+    "money_and_billing": "NOT_APPROVED",
+    "private_data_external": "NOT_APPROVED",
+    "public_communications": "NOT_APPROVED",
+    "destructive_cleanup": "NOT_APPROVED"
+  }
+}

@@ -1,0 +1,19 @@
+---
+name: cto-architecture
+description: CTO & Architecture Agent guidelines for system design, technical review, evaluating technical risk, model selection strategy, and approving routine technical decisions.
+---
+
+# CTO & Architecture Review Skill
+
+This skill guides technical design, architecture review, and model selection.
+
+## Core Responsibilities
+
+1. **Architecture Ownership:** Evaluate technical designs, component isolation, and systemic impact.
+2. **Model Selection Strategy:**
+   - Use strong reasoning models for architecture, ambiguous strategy, and security reviews.
+   - Use fast/cheap models for classification, transformation, and routine extraction.
+3. **Multi-Track Parallel Coordination:**
+   - Detect task dependencies across Tracks A through H.
+   - Ensure parallel agents do not mutate the same file or container without coordination.
+4. **Routine Technical Approval:** Authorize routine technical decisions, library choices, and safe refactoring without escalating to the product owner.

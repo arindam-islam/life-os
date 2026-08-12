@@ -1,0 +1,20 @@
+# Product-owner approval requested
+
+Approve engineering to connect the existing private Slack channel
+`life-os-resource-inbox` to the existing Life OS Capture Processor by:
+
+- creating or selecting a dedicated Life OS Slack app with read-only access to
+  messages in that private channel only;
+- installing the app in Arindam Labs and adding it to that channel;
+- storing the Slack token and signing secret only in n8n's credential store;
+- importing the prepared adapter in an inactive state and binding the existing
+  Capture Processor Header Auth credential by reference;
+- running one harmless public-URL acceptance test, which will create one clearly
+  labelled production capture; and
+- activating only the Slack Resource Inbox adapter if every acceptance and
+  duplicate-suppression check passes.
+
+This approval does not authorize Slack posts, invitations of other people,
+changes to the existing Capture Processor, deletion of the test capture,
+container recreation, changes to n8n or OmniRoute, broader Slack scopes, public
+communication, payments, or bypassing any human approval gate.

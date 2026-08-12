@@ -1,15 +1,36 @@
-# Life OS Control View
+# Life OS Operating Cockpit
 
-A single-page, nontechnical status board for Life OS. It shows the system map,
-the completed YouTube Enrichment rollout, recent engineering activity, and the
-approval gates that remain with the founder.
+A private, read-only operating view for Life OS. It brings together component
+health and freshness, verified outcomes, attention and approval items,
+engineering workstreams, and a visible source ledger.
 
-## Data truth
+## Source coverage
 
-This version is a visibility prototype. It does not connect to production or
-claim live telemetry. The dashboard distinguishes production-verified health,
-the latest reported handoff, ready-but-unconnected work, and future plans. Live
-health checks and authenticated controls are future work.
+The current cockpit is source-backed but only partially live:
+
+- Production acceptance evidence confirms n8n, OmniRoute, and YouTube Enricher
+  health on 12 Aug 2026, including one real-video enrichment test.
+- Repository evidence confirms the Capture Processor observation and the
+  ready-but-inactive Slack Resource Inbox adapter.
+- Current engineering handoff data supplies workstream priorities.
+- When `LIFE_OS_STATUS_URL` and `LIFE_OS_STATUS_TOKEN` are configured for the
+  hosted server, the dashboard proxy fetches component health and n8n execution
+  metadata every 30 seconds through the authenticated read-only bridge.
+- When the bridge is absent or unavailable, the UI visibly degrades to the
+  reviewed source snapshot. Live agent runtime remains unconnected and
+  engineering workstream status stays explicitly snapshot-based.
+
+The same-origin `GET /api/cockpit` endpoint returns the reviewed, non-secret
+source snapshot with private no-store caching. The bearer token is used only in
+the server route and is never returned to the browser. The endpoint does not
+accept writes. Production controls remain absent.
+
+Hosted server configuration:
+
+```text
+LIFE_OS_STATUS_URL=https://<private-approved-route>/life-os/status
+LIFE_OS_STATUS_TOKEN=<dedicated-status-token>
+```
 
 ## Local use
 
@@ -24,6 +45,6 @@ Validation:
 
 ```bash
 npm run build
-npm test
 npm run lint
+npm test
 ```

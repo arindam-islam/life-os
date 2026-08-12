@@ -58,6 +58,63 @@ services:
         max-size: "10m"
         max-file: "3"
 
+  status-bridge:
+    build:
+      context: ./status-bridge
+    container_name: life-os-status-bridge
+    restart: unless-stopped
+    init: true
+    read_only: true
+    ports:
+      - "127.0.0.1:8788:8788"
+    environment:
+      LIFE_OS_STATUS_TOKEN: ${LIFE_OS_STATUS_TOKEN:?LIFE_OS_STATUS_TOKEN must be set}
+      LIFE_OS_N8N_DB: /n8n-data/database.sqlite
+      LIFE_OS_STATUS_HOST: 0.0.0.0
+      LIFE_OS_STATUS_PORT: "8788"
+      LIFE_OS_N8N_HEALTH_URL: http://n8n:5678/healthz
+      LIFE_OS_YOUTUBE_HEALTH_URL: http://youtube-enricher:8080/health
+      LIFE_OS_OMNIROUTE_HEALTH_URL: http://omniroute:20128/
+    volumes:
+      - ./data:/n8n-data:ro
+    tmpfs:
+      - /tmp:size=16m,mode=1777
+    security_opt:
+      - no-new-privileges:true
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - >-
+          import urllib.request;
+          urllib.request.urlopen('http://127.0.0.1:8788/healthz', timeout=3).read()
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 5s
+    logging:
+      driver: json-file
+      options:
+        max-size: "5m"
+        max-file: "2"
+
+  status-view:
+    build:
+      context: ./status-view
+    container_name: life-os-status-view
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:3000:3000"
+    environment:
+      NODE_ENV: production
+      PORT: "3000"
+    logging:
+      driver: json-file
+      options:
+        max-size: "5m"
+        max-file: "2"
+
 networks:
   default:
     name: n8n_default

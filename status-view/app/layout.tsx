@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Life OS Control View",
-  description: "A clear view of Life OS health, engineering work, and approval boundaries.",
+  description: "A private, source-backed operating cockpit for Life OS health, outcomes, approvals, and engineering work.",
 };
 
 export default function RootLayout({

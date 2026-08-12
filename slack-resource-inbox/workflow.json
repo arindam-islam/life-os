@@ -29,7 +29,7 @@
     },
     {
       "parameters": {
-        "jsCode": "const WORKSPACE_ID = 'T0BLLQ18E5C';\nconst CHANNEL_ID = 'C0BPQBNTK8R';\nconst CHANNEL_NAME = 'life-os-resource-inbox';\nconst IGNORED_SUBTYPES = new Set([\n  'bot_message',\n  'message_changed',\n  'message_deleted',\n  'channel_join',\n  'channel_leave',\n]);\n\nfunction cleanUrl(value) {\n  return value.replace(/[>.,;:!?\\]})]+$/g, '');\n}\n\nfunction extractLinks(text) {\n  const links = [];\n  const slackLinkPattern = /<(https?:\\/\\/[^>|]+)(?:\\|[^>]+)?>/g;\n  const plainLinkPattern = /https?:\\/\\/[^\\s<>()]+/g;\n  for (const match of text.matchAll(slackLinkPattern)) links.push(cleanUrl(match[1]));\n  for (const match of text.matchAll(plainLinkPattern)) links.push(cleanUrl(match[0]));\n  return [...new Set(links)];\n}\n\nreturn $input.all().flatMap((item) => {\n  const event = item.json?.event ?? item.json ?? {};\n  const message = event.message ?? event;\n  const channelId = event.channel ?? event.channel_id ?? event.item?.channel;\n  const subtype = event.subtype ?? message.subtype ?? null;\n  const messageTs = message.ts ?? event.ts;\n  const threadTs = message.thread_ts ?? event.thread_ts ?? null;\n  const authorId = message.user ?? event.user ?? null;\n  const text = typeof message.text === 'string' ? message.text.trim() : '';\n  const files = Array.isArray(message.files ?? event.files) ? (message.files ?? event.files) : [];\n\n  if (channelId !== CHANNEL_ID || !messageTs) return [];\n  if (event.bot_id || message.bot_id || IGNORED_SUBTYPES.has(subtype)) return [];\n  if (!text && files.length === 0) return [];\n\n  const links = extractLinks(text);\n  const fileResources = files\n    .filter((file) => file && typeof file.id === 'string')\n    .map((file) => ({\n      type: 'slack_file',\n      id: file.id,\n      name: typeof file.name === 'string' ? file.name : null,\n      mime_type: typeof file.mimetype === 'string' ? file.mimetype : null,\n      size_bytes: Number.isFinite(file.size) ? file.size : null,\n    }));\n  const timestampSeconds = Number.parseFloat(messageTs);\n  const capturedAt = Number.isFinite(timestampSeconds)\n    ? new Date(timestampSeconds * 1000).toISOString()\n    : new Date().toISOString();\n\n  return [{\n    json: {\n      schema_version: '1.0',\n      source: 'slack_resource_inbox',\n      content: text,\n      primary_url: links[0] ?? null,\n      resources: [\n        ...links.map((url) => ({ type: 'link', url })),\n        ...fileResources,\n      ],\n      source_metadata: {\n        workspace_id: WORKSPACE_ID,\n        channel_id: CHANNEL_ID,\n        channel_name: CHANNEL_NAME,\n        message_ts: String(messageTs),\n        thread_ts: threadTs ? String(threadTs) : null,\n        author_id: authorId ? String(authorId) : null,\n      },\n      captured_at: capturedAt,\n      deduplication_key: `slack:${WORKSPACE_ID}:${CHANNEL_ID}:${messageTs}`,\n      routing: {\n        current_stage: 'ingestion',\n        next_stages: ['cleaning', 'decision'],\n        approval_required_for_external_actions: true,\n      },\n    },\n  }];\n});"
+        "jsCode": "const WORKSPACE_ID = 'T0BLLQ18E5C';\nconst CHANNEL_ID = 'C0BPQBNTK8R';\nconst CHANNEL_NAME = 'life-os-resource-inbox';\nconst IGNORED_SUBTYPES = new Set([\n  'bot_message',\n  'message_changed',\n  'message_deleted',\n  'channel_join',\n  'channel_leave',\n]);\n\nfunction cleanUrl(value) {\n  return value.replace(/[>.,;:!?\\]})]+$/g, '');\n}\n\nfunction extractLinks(text) {\n  const links = [];\n  const slackLinkPattern = /<(https?:\\/\\/[^>|]+)(?:\\|[^>]+)?>/g;\n  const plainLinkPattern = /https?:\\/\\/[^\\s<>()|>]+/g;\n  for (const match of text.matchAll(slackLinkPattern)) links.push(cleanUrl(match[1]));\n  for (const match of text.matchAll(plainLinkPattern)) links.push(cleanUrl(match[0]));\n  return [...new Set(links)];\n}\n\nreturn $input.all().flatMap((item) => {\n  const event = item.json?.event ?? item.json ?? {};\n  const message = event.message ?? event;\n  const channelId = event.channel ?? event.channel_id ?? event.item?.channel;\n  const subtype = event.subtype ?? message.subtype ?? null;\n  const messageTs = message.ts ?? event.ts;\n  const threadTs = message.thread_ts ?? event.thread_ts ?? null;\n  const authorId = message.user ?? event.user ?? null;\n  const text = typeof message.text === 'string' ? message.text.trim() : '';\n  const files = Array.isArray(message.files ?? event.files) ? (message.files ?? event.files) : [];\n\n  if (channelId !== CHANNEL_ID || !messageTs) return [];\n  if (event.bot_id || message.bot_id || IGNORED_SUBTYPES.has(subtype)) return [];\n  if (!text && files.length === 0) return [];\n\n  const links = extractLinks(text);\n  const fileResources = files\n    .filter((file) => file && typeof file.id === 'string')\n    .map((file) => ({\n      type: 'slack_file',\n      id: file.id,\n      name: typeof file.name === 'string' ? file.name : null,\n      mime_type: typeof file.mimetype === 'string' ? file.mimetype : null,\n      size_bytes: Number.isFinite(file.size) ? file.size : null,\n    }));\n  const timestampSeconds = Number.parseFloat(messageTs);\n  const capturedAt = Number.isFinite(timestampSeconds)\n    ? new Date(timestampSeconds * 1000).toISOString()\n    : new Date().toISOString();\n\n  return [{\n    json: {\n      schema_version: '1.0',\n      source: 'slack_resource_inbox',\n      content: text,\n      primary_url: links[0] ?? null,\n      resources: [\n        ...links.map((url) => ({ type: 'link', url })),\n        ...fileResources,\n      ],\n      source_metadata: {\n        workspace_id: WORKSPACE_ID,\n        channel_id: CHANNEL_ID,\n        channel_name: CHANNEL_NAME,\n        message_ts: String(messageTs),\n        thread_ts: threadTs ? String(threadTs) : null,\n        author_id: authorId ? String(authorId) : null,\n      },\n      captured_at: capturedAt,\n      deduplication_key: `slack:${WORKSPACE_ID}:${CHANNEL_ID}:${messageTs}`,\n      routing: {\n        current_stage: 'ingestion',\n        next_stages: ['cleaning', 'decision'],\n        approval_required_for_external_actions: true,\n      },\n    },\n  }];\n});"
       },
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
@@ -39,6 +39,25 @@
       ],
       "id": "75854466-a216-405d-810d-727ac7200b33",
       "name": "Normalize and Guard Inbox Event"
+    },
+    {
+      "parameters": {
+        "operation": "removeItemsSeenInPreviousExecutions",
+        "logic": "removeItemsWithAlreadySeenKeyValues",
+        "dedupeValue": "={{ $json.deduplication_key }}",
+        "options": {
+          "scope": "node",
+          "historySize": 10000
+        }
+      },
+      "type": "n8n-nodes-base.removeDuplicates",
+      "typeVersion": 2,
+      "position": [
+        48,
+        0
+      ],
+      "id": "a555f2ca-42e7-44f3-8ebd-33dc6735f91a",
+      "name": "Suppress Previously Captured Message"
     },
     {
       "parameters": {
@@ -54,11 +73,14 @@
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.4,
       "position": [
-        48,
+        320,
         0
       ],
       "id": "397b969e-4df0-44cc-bc36-a7ee47fd7bdf",
-      "name": "Forward to Authenticated Capture Webhook"
+      "name": "Forward to Authenticated Capture Webhook",
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
     }
   ],
   "connections": {
@@ -77,11 +99,23 @@
       "main": [
         [
           {
-            "node": "Forward to Authenticated Capture Webhook",
+            "node": "Suppress Previously Captured Message",
             "type": "main",
             "index": 0
           }
         ]
+      ]
+    },
+    "Suppress Previously Captured Message": {
+      "main": [
+        [
+          {
+            "node": "Forward to Authenticated Capture Webhook",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        []
       ]
     }
   },

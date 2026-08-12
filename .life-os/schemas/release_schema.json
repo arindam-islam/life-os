@@ -1,0 +1,171 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Life OS Release Candidate Schema (Hardened)",
+  "type": "object",
+  "required": [
+    "release_id",
+    "commit_sha",
+    "target_track",
+    "release_status",
+    "rollback_plan",
+    "gates"
+  ],
+  "properties": {
+    "release_id": {
+      "type": "string",
+      "pattern": "^REL-[0-9]{8}-[a-f0-9]{7,40}$"
+    },
+    "commit_sha": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{40}$"
+    },
+    "target_track": {
+      "type": "string"
+    },
+    "release_status": {
+      "type": "string",
+      "enum": ["DRAFT", "IN_PROGRESS", "BLOCKED", "PASSED", "INVALID"]
+    },
+    "rollback_plan": {
+      "type": "object",
+      "required": [
+        "previous_version",
+        "bounded_commands",
+        "recovery_reference",
+        "verification_steps",
+        "safe_to_execute"
+      ],
+      "properties": {
+        "previous_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "bounded_commands": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1
+        },
+        "recovery_reference": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification_steps": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1
+        },
+        "safe_to_execute": {
+          "type": "boolean"
+        }
+      }
+    },
+    "gates": {
+      "type": "object",
+      "required": ["dev", "test", "security", "staging", "qa", "production"],
+      "properties": {
+        "dev": { "$ref": "#/$defs/gate_dev" },
+        "test": { "$ref": "#/$defs/gate_test" },
+        "security": { "$ref": "#/$defs/gate_security" },
+        "staging": { "$ref": "#/$defs/gate_staging" },
+        "qa": { "$ref": "#/$defs/gate_qa" },
+        "production": { "$ref": "#/$defs/gate_production" }
+      }
+    }
+  },
+  "$defs": {
+    "gate_common": {
+      "type": "object",
+      "required": ["status", "timestamp", "responsible_role", "evidence", "notes"],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["NOT_STARTED", "IN_PROGRESS", "PASSED", "FAILED", "BLOCKED"]
+        },
+        "timestamp": {
+          "type": ["string", "null"]
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "gate_dev": {
+      "allOf": [
+        { "$ref": "#/$defs/gate_common" },
+        {
+          "properties": {
+            "responsible_role": {
+              "type": "string",
+              "enum": ["Engineering Agent"]
+            }
+          }
+        }
+      ]
+    },
+    "gate_test": {
+      "allOf": [
+        { "$ref": "#/$defs/gate_common" },
+        {
+          "properties": {
+            "responsible_role": {
+              "type": "string",
+              "enum": ["QA / Verification Agent", "Engineering Agent"]
+            }
+          }
+        }
+      ]
+    },
+    "gate_security": {
+      "allOf": [
+        { "$ref": "#/$defs/gate_common" },
+        {
+          "properties": {
+            "responsible_role": {
+              "type": "string",
+              "enum": ["Security & Reliability Reviewer"]
+            }
+          }
+        }
+      ]
+    },
+    "gate_staging": {
+      "allOf": [
+        { "$ref": "#/$defs/gate_common" },
+        {
+          "properties": {
+            "responsible_role": {
+              "type": "string",
+              "enum": ["CTO / Architecture Agent"]
+            }
+          }
+        }
+      ]
+    },
+    "gate_qa": {
+      "allOf": [
+        { "$ref": "#/$defs/gate_common" },
+        {
+          "properties": {
+            "responsible_role": {
+              "type": "string",
+              "enum": ["QA / Verification Agent"]
+            }
+          }
+        }
+      ]
+    },
+    "gate_production": {
+      "allOf": [
+        { "$ref": "#/$defs/gate_common" },
+        {
+          "properties": {
+            "responsible_role": {
+              "type": "string",
+              "enum": ["Orchestrator / Chief of Staff"]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

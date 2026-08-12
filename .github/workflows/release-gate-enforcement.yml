@@ -1,0 +1,41 @@
+# Status: PREPARED_UNCOMMITTED
+# Note: This workflow is an uncommitted local specification.
+# It becomes an enforced GitHub check ONLY after being committed to main, pushed to GitHub,
+# and configured as a required status check in repository branch protection rules.
+
+name: Life OS Release Gate & State Machine Enforcement (Prepared)
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate-release-ledger:
+    name: Validate Release Ledger & Enforce Fail-Closed Gates
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Validate Release Ledger State Machine
+        run: |
+          python3 scripts/release_state_machine.py validate
+
+      - name: Run Release State Machine Unit Tests
+        run: |
+          python3 -m unittest discover -s tests -v
+
+      - name: Run Slack Resource Inbox Package Tests
+        run: |
+          python3 -m unittest discover -s slack-resource-inbox/tests -v
+
+      - name: Run Status Bridge Unit Tests
+        run: |
+          python3 -m unittest discover -s status-bridge/tests -v

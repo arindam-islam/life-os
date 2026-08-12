@@ -1,315 +1,436 @@
 "use client";
 
-import { useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
+import {
+  cockpitSnapshot as embeddedSnapshot,
+  type CockpitSnapshot,
+  type HealthState,
+} from "./cockpit-source";
 
-type SystemState = "healthy" | "reported" | "ready" | "priority" | "planned";
+type CockpitResponse = CockpitSnapshot & { servedAt?: string };
+type HealthFilter = "all" | "healthy" | "attention" | "disconnected";
 
-const systems: Array<{
-  name: string;
-  role: string;
-  state: SystemState;
-  label: string;
-  source: string;
-  mark: string;
-}> = [
-  {
-    name: "n8n",
-    role: "Runs Life OS workflows",
-    state: "healthy",
-    label: "Production healthy",
-    source: "Verified during the safe rollout · this view does not poll it",
-    mark: "N",
-  },
-  {
-    name: "OmniRoute",
-    role: "Routes work to the right AI model",
-    state: "healthy",
-    label: "Production healthy",
-    source: "Verified during the safe rollout · this view does not poll it",
-    mark: "O",
-  },
-  {
-    name: "Capture API",
-    role: "Receives new ideas and resources",
-    state: "reported",
-    label: "Reported healthy",
-    source: "Latest reported production handoff · this view does not poll it",
-    mark: "C",
-  },
-  {
-    name: "Durable storage",
-    role: "Keeps approved, cleaned information",
-    state: "reported",
-    label: "Reported healthy",
-    source: "Latest reported production handoff · this view does not poll it",
-    mark: "D",
-  },
-  {
-    name: "YouTube Enricher",
-    role: "Turns videos into useful knowledge",
-    state: "healthy",
-    label: "Live and healthy",
-    source: "Production deployment + real-video test passed · this view does not poll it",
-    mark: "Y",
-  },
-  {
-    name: "Slack Resource Inbox",
-    role: "Captures links dropped in Slack",
-    state: "ready",
-    label: "Ready, not connected",
-    source: "Channel + inactive adapter ready · Slack connection is still off",
-    mark: "S",
-  },
-  {
-    name: "Career Ops pilot",
-    role: "Tests the job-search workflow safely",
-    state: "planned",
-    label: "Paused by owner",
-    source: "Held until the next product review · pilot is not running",
-    mark: "P",
-  },
-  {
-    name: "Knowledge Engine",
-    role: "Connects and recalls what matters",
-    state: "planned",
-    label: "Planned",
-    source: "Not deployed",
-    mark: "K",
-  },
-  {
-    name: "Agents",
-    role: "Completes approved work across Life OS",
-    state: "planned",
-    label: "Planned",
-    source: "Not deployed",
-    mark: "A",
-  },
+const healthFilters: Array<{ id: HealthFilter; label: string }> = [
+  { id: "all", label: "All components" },
+  { id: "healthy", label: "Healthy" },
+  { id: "attention", label: "Reported / ready" },
+  { id: "disconnected", label: "Missing feeds" },
 ];
 
-const stateFilters: Array<{ key: "all" | SystemState; label: string }> = [
-  { key: "all", label: "All systems" },
-  { key: "healthy", label: "Production healthy" },
-  { key: "reported", label: "Reported healthy" },
-  { key: "ready", label: "Ready" },
-  { key: "priority", label: "Next priority" },
-  { key: "planned", label: "Planned" },
-];
+const stateLabels: Record<HealthState, string> = {
+  healthy: "Healthy",
+  reported: "Reported",
+  ready: "Ready",
+  disconnected: "Disconnected",
+  planned: "Planned",
+};
 
-const rollout = [
-  { title: "Prepare safely", detail: "Code reviewed and deployment isolated", status: "done" },
-  { title: "Deploy only the new service", detail: "n8n and OmniRoute left intact", status: "done" },
-  { title: "Confirm service health", detail: "Production health check passed", status: "done" },
-  { title: "Test a real video", detail: "A production enrichment completed successfully", status: "done" },
-  { title: "Protect the existing system", detail: "n8n and OmniRoute remained healthy", status: "done" },
-];
+function sourceById(snapshot: CockpitSnapshot, id: string) {
+  return snapshot.sources.find((source) => source.id === id);
+}
+
+function formatServedAt(value?: string) {
+  if (!value) return "Embedded source snapshot";
+  return `Source snapshot checked ${new Intl.DateTimeFormat("en-IN", {
+    hour: "numeric",
+    minute: "2-digit",
+  }).format(new Date(value))}`;
+}
+
+function formatTimestamp(value: string | null) {
+  if (!value) return "—";
+  const parsed = new Date(value);
+  if (Number.isNaN(parsed.getTime())) return value;
+  return new Intl.DateTimeFormat("en-IN", {
+    day: "numeric",
+    month: "short",
+    hour: "numeric",
+    minute: "2-digit",
+  }).format(parsed);
+}
+
+function formatDuration(value: number | null) {
+  if (value === null) return "—";
+  if (value < 1_000) return `${value} ms`;
+  if (value < 60_000) return `${(value / 1_000).toFixed(1)} s`;
+  return `${Math.round(value / 60_000)} min`;
+}
 
 export default function Home() {
-  const [filter, setFilter] = useState<(typeof stateFilters)[number]["key"]>("all");
-  const visibleSystems = systems.filter((system) => filter === "all" || system.state === filter);
+  const [snapshot, setSnapshot] = useState<CockpitResponse>(embeddedSnapshot);
+  const [filter, setFilter] = useState<HealthFilter>("all");
+  const [refreshing, setRefreshing] = useState(false);
+  const [refreshError, setRefreshError] = useState(false);
+
+  const refresh = useCallback(async () => {
+    setRefreshing(true);
+    try {
+      const response = await fetch("/api/cockpit", { cache: "no-store" });
+      if (!response.ok) throw new Error("Cockpit source request failed");
+      const next = (await response.json()) as CockpitResponse;
+      setSnapshot(next);
+      setRefreshError(false);
+    } catch {
+      setRefreshError(true);
+    } finally {
+      setRefreshing(false);
+    }
+  }, []);
+
+  useEffect(() => {
+    const initialTimer = window.setTimeout(() => void refresh(), 0);
+    const timer = window.setInterval(() => void refresh(), 30 * 1000);
+    return () => {
+      window.clearTimeout(initialTimer);
+      window.clearInterval(timer);
+    };
+  }, [refresh]);
+
+  const filteredComponents = useMemo(
+    () =>
+      snapshot.components.filter((component) => {
+        if (filter === "all") return true;
+        if (filter === "healthy") return component.state === "healthy";
+        if (filter === "attention")
+          return component.state === "reported" || component.state === "ready";
+        return component.state === "disconnected";
+      }),
+    [filter, snapshot.components],
+  );
+
+  const verifiedHealthy = snapshot.components.filter(
+    (component) => component.state === "healthy",
+  ).length;
+  const connectedFeeds = snapshot.requiredFeeds.filter(
+    (feed) => feed.state === "connected",
+  ).length;
 
   return (
     <main>
       <header className="topbar">
-        <a className="brand" href="#top" aria-label="Life OS command center home">
+        <a className="brand" href="#top" aria-label="Life OS cockpit home">
           <span className="brand-mark">L</span>
           <span>Life OS</span>
         </a>
-        <nav aria-label="Dashboard sections">
-          <a href="#systems">Systems</a>
-          <a href="#rollout">Rollout</a>
-          <a href="#activity">Activity</a>
+        <nav aria-label="Cockpit sections">
+          <a href="#health">Health</a>
+          <a href="#attention">Attention</a>
+          <a href="#work">Work</a>
+          <a href="#processing">Processing</a>
+          <a href="#history">History</a>
+          <a href="#sources">Sources</a>
         </nav>
-        <div className="snapshot-chip"><span /> Reported snapshot</div>
+        <div className="top-actions">
+          <span className={`mode-chip mode-${snapshot.telemetry.status}`}>
+            <span />{snapshot.telemetry.label}
+          </span>
+          <button className="refresh-button" onClick={() => void refresh()} disabled={refreshing}>
+            {refreshing ? "Checking…" : "Refresh"}
+          </button>
+        </div>
       </header>
 
       <section className="hero" id="top">
         <div className="hero-copy">
-          <p className="eyebrow">Founder command center</p>
-          <h1>See what is working.<br />See what happens next.</h1>
+          <p className="eyebrow">Private operating cockpit</p>
+          <h1>What is working.<br />What needs attention.</h1>
           <p className="hero-note">
-            One nontechnical view of Life OS health, current engineering work, and the decisions that stay with you.
+            A read-only view of verified system health, real outcomes, approval gates, and engineering work.
           </p>
         </div>
-        <aside className="truth-card" aria-label="Data status">
-          <div className="truth-icon">i</div>
-          <div>
-            <strong>This is not live telemetry yet</strong>
-            <p>Health labels reflect the latest production verification and reported handoff. This page does not poll services or enable controls.</p>
+        <aside className={`source-state telemetry-${snapshot.telemetry.status}`} aria-label="Dashboard source state">
+          <div className="source-state-top">
+            <span className="source-state-icon">{snapshot.telemetry.status === "live" ? "✓" : "!"}</span>
+            <div>
+              <strong>{snapshot.telemetry.label}</strong>
+              <p>{snapshot.telemetry.message}</p>
+            </div>
           </div>
+          <div className="snapshot-time">
+            <span>{formatServedAt(snapshot.servedAt)}</span>
+            <span>
+              {snapshot.telemetry.generatedAt
+                ? `Bridge generated ${formatTimestamp(snapshot.telemetry.generatedAt)}`
+                : "Evidence as of 12 Aug 2026"}
+            </span>
+          </div>
+          <small className="refresh-cadence">Checks again automatically every 30 seconds.</small>
+          {refreshError && <p className="refresh-error" role="status">Refresh failed. Showing the last embedded source snapshot.</p>}
         </aside>
       </section>
 
-      <section className="summary-grid" aria-label="System summary">
-        <article className="summary-card accent-green">
-          <span>Production healthy</span>
-          <strong>3</strong>
-          <small>n8n, OmniRoute + YouTube</small>
+      <section className="metric-strip" aria-label="Operating summary">
+        <article className="metric-card metric-green">
+          <span>Verified healthy</span>
+          <strong>{verifiedHealthy}</strong>
+          <small>Production components</small>
         </article>
-        <article className="summary-card accent-amber">
-          <span>Reported healthy</span>
-          <strong>2</strong>
-          <small>Capture + storage</small>
+        <article className="metric-card metric-blue">
+          <span>Workflow runs · last {snapshot.processing.windowHours}h</span>
+          <strong>{snapshot.processing.total ?? "—"}</strong>
+          <small>
+            {snapshot.processing.source === "live"
+              ? `${snapshot.processing.succeeded} succeeded · ${snapshot.processing.failed} failed`
+              : "Live execution history unavailable"}
+          </small>
         </article>
-        <article className="summary-card accent-grey">
-          <span>Ready, not connected</span>
-          <strong>1</strong>
-          <small>Slack Resource Inbox</small>
+        <article className="metric-card metric-amber">
+          <span>Open attention items</span>
+          <strong>{snapshot.attention.length}</strong>
+          <small>Approval + engineering actions</small>
         </article>
-        <article className="summary-card summary-wide">
-          <span>Current priority</span>
-          <strong className="priority-text">Connect Slack Resource Inbox safely</strong>
-          <small>Adapter ready · reusable Slack credential still required</small>
+        <article className="metric-card metric-red">
+          <span>Live feeds connected</span>
+          <strong>{connectedFeeds}<em>/{snapshot.requiredFeeds.length}</em></strong>
+          <small>Health, history, agents</small>
+        </article>
+        <article className="priority-card">
+          <span>Next operating priority</span>
+          <strong>Career Ops pilot</strong>
+          <small>Prepare the pilot; keep applications and external messages approval-gated.</small>
         </article>
       </section>
 
-      <section className="pipeline" aria-labelledby="pipeline-title">
-        <div className="section-heading compact-heading">
-          <div>
-            <p className="eyebrow">How Life OS moves information</p>
-            <h2 id="pipeline-title">Capture → understand → decide → remember</h2>
-          </div>
-          <span className="label-pill">Founder approval protects sensitive actions</span>
-        </div>
-        <div className="pipeline-rail">
-          {[
-            ["01", "Capture", "iPhone live · Slack ready"],
-            ["02", "Clean", "Remove noise"],
-            ["03", "Understand", "Find meaning"],
-            ["04", "Decide", "Choose next action"],
-            ["05", "Store / Act", "With approval"],
-          ].map(([number, title, detail], index) => (
-            <div className="pipeline-step" key={title}>
-              <span className="step-number">{number}</span>
-              <strong>{title}</strong>
-              <small>{detail}</small>
-              {index < 4 && <span className="rail-arrow" aria-hidden="true">→</span>}
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <section className="section" id="systems" aria-labelledby="systems-title">
+      <section className="section" id="health" aria-labelledby="health-title">
         <div className="section-heading">
           <div>
-            <p className="eyebrow">System map</p>
-            <h2 id="systems-title">Every part of Life OS</h2>
+            <p className="eyebrow">Component health + freshness</p>
+            <h2 id="health-title">System readings</h2>
           </div>
-          <div className="filters" aria-label="Filter systems">
-            {stateFilters.map((item) => (
+          <div className="filters" aria-label="Filter component readings">
+            {healthFilters.map((item) => (
               <button
-                className={filter === item.key ? "active" : ""}
-                key={item.key}
-                onClick={() => setFilter(item.key)}
-                aria-pressed={filter === item.key}
+                key={item.id}
+                className={filter === item.id ? "active" : ""}
+                onClick={() => setFilter(item.id)}
+                aria-pressed={filter === item.id}
               >
                 {item.label}
               </button>
             ))}
           </div>
         </div>
-        <div className="systems-grid">
-          {visibleSystems.map((system) => (
-            <article className="system-card" key={system.name}>
-              <div className={`system-mark state-${system.state}`}>{system.mark}</div>
-              <div className="system-main">
-                <h3>{system.name}</h3>
-                <p>{system.role}</p>
+
+        <div className="health-table" role="table" aria-label="Life OS component health">
+          <div className="health-row health-header" role="row">
+            <span role="columnheader">Component</span>
+            <span role="columnheader">Current reading</span>
+            <span role="columnheader">Freshness</span>
+            <span role="columnheader">Source</span>
+          </div>
+          {filteredComponents.map((component) => {
+            const primarySource = sourceById(snapshot, component.sourceIds[0]);
+            return (
+              <div className="health-row" role="row" key={component.id}>
+                <div className="component-name" role="cell">
+                  <span
+                    className={`component-mark state-${component.state}`}
+                    aria-label={stateLabels[component.state]}
+                    title={stateLabels[component.state]}
+                  >
+                    {component.name.slice(0, 1)}
+                  </span>
+                  <div><strong>{component.name}</strong><small>{component.role}</small></div>
+                </div>
+                <div className="reading-cell" role="cell">
+                  <span className={`status status-${component.state}`}><span />{component.reading}</span>
+                  <small>{component.detail}</small>
+                </div>
+                <div className="freshness-cell" role="cell">
+                  <strong>{component.freshness}</strong>
+                  <small>{component.observedOn}</small>
+                </div>
+                <div className="source-cell" role="cell">
+                  <strong>{primarySource?.name ?? "Source unavailable"}</strong>
+                  <small>{primarySource?.kind ?? "Missing source"}</small>
+                </div>
               </div>
-              <div className={`status status-${system.state}`}><span />{system.label}</div>
-              <small className="source-label">{system.source}</small>
+            );
+          })}
+        </div>
+      </section>
+
+      <div className="two-column">
+        <section className="section attention-panel" id="attention" aria-labelledby="attention-title">
+          <div className="section-heading">
+            <div>
+              <p className="eyebrow">Attention + approvals</p>
+              <h2 id="attention-title">What needs a decision</h2>
+            </div>
+          </div>
+          <div className="attention-list">
+            {snapshot.attention.map((item, index) => (
+              <article key={item.id}>
+                <div className={`attention-number urgency-${item.urgency}`}>{String(index + 1).padStart(2, "0")}</div>
+                <div>
+                  <div className="item-heading">
+                    <h3>{item.title}</h3>
+                    <span>{item.owner}</span>
+                  </div>
+                  <p>{item.why}</p>
+                  <div className="next-step"><strong>Next:</strong> {item.nextStep}</div>
+                  <small className="inline-source">Source: {sourceById(snapshot, item.sourceId)?.name}</small>
+                </div>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <aside className="section feed-panel" aria-labelledby="feed-title">
+          <div>
+            <p className="eyebrow">Coverage gap</p>
+            <h2 id="feed-title">What is not live yet</h2>
+            <p className="panel-copy">These feeds are required before this can become a real-time operating dashboard.</p>
+          </div>
+          <div className="feed-list">
+            {snapshot.requiredFeeds.map((feed) => (
+              <article key={feed.id}>
+                <span className="feed-off">×</span>
+                <div><strong>{feed.name}</strong><p>{feed.blocker}</p></div>
+              </article>
+            ))}
+          </div>
+          <div className="controls-locked">
+            <span>×</span>
+            <div><strong>Production controls remain disabled</strong><p>This cockpit is read-only. It cannot restart services, activate workflows, send messages, or approve external actions.</p></div>
+          </div>
+        </aside>
+      </div>
+
+      <section className="section" id="work" aria-labelledby="work-title">
+        <div className="section-heading">
+          <div>
+            <p className="eyebrow">Agent + work status</p>
+            <h2 id="work-title">Engineering workstreams</h2>
+          </div>
+          <span className="quiet-pill">Handoff status · not live agent telemetry</span>
+        </div>
+        <div className="work-grid">
+          {snapshot.workstreams.map((work) => (
+            <article className="work-card" key={work.id}>
+              <div className="work-card-top">
+                <span className={`work-status work-${work.state}`}>{work.label}</span>
+                <small>{work.lastUpdate}</small>
+              </div>
+              <h3>{work.name}</h3>
+              <p>{work.nextStep}</p>
+              <small className="inline-source">Source: {sourceById(snapshot, work.sourceId)?.name}</small>
             </article>
           ))}
         </div>
       </section>
 
-      <div className="split-layout">
-        <section className="section panel" id="rollout" aria-labelledby="rollout-title">
-          <div className="section-heading">
-            <div>
-              <p className="eyebrow">Engineering rollout</p>
-              <h2 id="rollout-title">YouTube Enrichment v1</h2>
-            </div>
-            <span className="status status-healthy"><span />Live and tested</span>
-          </div>
-          <ol className="rollout-list">
-            {rollout.map((item, index) => (
-              <li className={item.status} key={item.title}>
-                <div className="rollout-marker">{item.status === "done" ? "✓" : index + 1}</div>
-                <div>
-                  <strong>{item.title}</strong>
-                  <p>{item.detail}</p>
-                </div>
-                <span className="rollout-label">
-                  {item.status === "done" ? "Complete" : "Queued"}
-                </span>
-              </li>
-            ))}
-          </ol>
-        </section>
-
-        <aside className="section panel guardrail-panel" aria-labelledby="guardrails-title">
-          <div>
-            <p className="eyebrow">Your control boundary</p>
-            <h2 id="guardrails-title">You approve what can affect you</h2>
-            <p className="panel-copy">Engineering can proceed independently until work reaches one of these gates.</p>
-          </div>
-          <ul className="guardrail-list">
-            <li><span>01</span><strong>Personal or sensitive details</strong></li>
-            <li><span>02</span><strong>Payments or new spend</strong></li>
-            <li><span>03</span><strong>Public or reputation-sensitive actions</strong></li>
-            <li><span>04</span><strong>Destructive or materially risky production changes</strong></li>
-          </ul>
-          <div className="controls-locked">
-            <span className="lock-mark">×</span>
-            <div><strong>Live controls are locked</strong><p>Controls will activate only after authenticated health checks are safely connected.</p></div>
-          </div>
-          <div className="control-actions">
-            <button disabled>Run live health check</button>
-            <button disabled>Pause automations</button>
-          </div>
-        </aside>
-      </div>
-
-      <section className="section activity-panel" id="activity" aria-labelledby="activity-title">
+      <section className="section processing-panel" id="processing" aria-labelledby="processing-title">
         <div className="section-heading">
           <div>
-            <p className="eyebrow">Recent activity</p>
-            <h2 id="activity-title">What the engineering system is doing</h2>
+            <p className="eyebrow">Processing outcomes</p>
+            <h2 id="processing-title">Workflow activity</h2>
           </div>
-          <span className="label-pill">Reported events · not a live feed</span>
+          <span className={`quiet-pill ${snapshot.processing.source === "live" ? "live-pill" : "warning-pill"}`}>
+            {snapshot.processing.source === "live"
+              ? `Live metadata · last ${snapshot.processing.windowHours} hours`
+              : "Live execution history unavailable"}
+          </span>
         </div>
-        <div className="activity-list" role="list">
-          <article role="listitem">
-            <span className="activity-mark green">✓</span>
-            <div><strong>YouTube Enricher is live</strong><p>Production deployment and the health check completed successfully.</p></div>
-            <time>Live</time>
-          </article>
-          <article role="listitem">
-            <span className="activity-mark green">✓</span>
-            <div><strong>Real-video test passed</strong><p>A real video completed the production enrichment flow successfully.</p></div>
-            <time>Verified</time>
-          </article>
-          <article role="listitem">
-            <span className="activity-mark blue">S</span>
-            <div><strong>Slack Resource Inbox is ready</strong><p>The channel and inactive adapter are prepared; the Slack connection remains off.</p></div>
-            <time>Not connected</time>
-          </article>
-          <article role="listitem">
-            <span className="activity-mark green">✓</span>
-            <div><strong>Production repair completed</strong><p>n8n file access was corrected and exposed pinned test data was cleared.</p></div>
-            <time>Verified</time>
-          </article>
-          <article role="listitem">
-            <span className="activity-mark amber">P</span>
-            <div><strong>Career Ops pilot paused</strong><p>The owner asked to resume this work together after lunch.</p></div>
-            <time>On hold</time>
-          </article>
+        {snapshot.processing.source === "live" ? (
+          <>
+            <div className="processing-summary" aria-label="Workflow execution summary">
+              <article><span>Total runs</span><strong>{snapshot.processing.total}</strong></article>
+              <article><span>Succeeded</span><strong>{snapshot.processing.succeeded}</strong></article>
+              <article><span>Failed</span><strong>{snapshot.processing.failed}</strong></article>
+              <article><span>Running / waiting</span><strong>{snapshot.processing.runningOrWaiting}</strong></article>
+              <article>
+                <span>Success rate</span>
+                <strong>{snapshot.processing.successRate === null ? "—" : `${Math.round(snapshot.processing.successRate * 100)}%`}</strong>
+              </article>
+              <article><span>Active workflows</span><strong>{snapshot.processing.activeWorkflows.length}</strong></article>
+            </div>
+            <div className="execution-table" role="table" aria-label="Recent workflow executions">
+              <div className="execution-row execution-header" role="row">
+                <span role="columnheader">Workflow</span>
+                <span role="columnheader">Outcome</span>
+                <span role="columnheader">Started</span>
+                <span role="columnheader">Duration</span>
+              </div>
+              {snapshot.processing.recentExecutions.length > 0 ? (
+                snapshot.processing.recentExecutions.map((execution) => (
+                  <div className="execution-row" role="row" key={execution.id}>
+                    <div role="cell"><strong>{execution.workflow}</strong><small>{execution.mode}</small></div>
+                    <div role="cell"><span className={`execution-status execution-${execution.status}`}>{execution.status}</span></div>
+                    <time role="cell">{formatTimestamp(execution.startedAt)}</time>
+                    <span role="cell">{formatDuration(execution.durationMs)}</span>
+                  </div>
+                ))
+              ) : (
+                <div className="empty-row">No recent executions were returned by the live bridge.</div>
+              )}
+            </div>
+            <p className="privacy-note">Metadata only: workflow name, outcome, mode, time, and duration. No execution payloads or captured content.</p>
+          </>
+        ) : (
+          <div className="processing-empty">
+            <span>×</span>
+            <div>
+              <strong>Processing history is not available</strong>
+              <p>{snapshot.processing.unavailableReason}</p>
+            </div>
+          </div>
+        )}
+      </section>
+
+      <section className="section history-panel" id="history" aria-labelledby="history-title">
+        <div className="section-heading">
+          <div>
+            <p className="eyebrow">Verified outcomes + history</p>
+            <h2 id="history-title">Evidence we can stand behind</h2>
+          </div>
+          <span className="quiet-pill warning-pill">Partial history · n8n execution feed missing</span>
+        </div>
+        <div className="history-list" role="list">
+          {snapshot.outcomes.map((outcome) => (
+            <article role="listitem" key={outcome.id}>
+              <span className={`outcome-mark outcome-${outcome.state}`}>
+                {outcome.state === "passed" || outcome.state === "confirmed" ? "✓" : "•"}
+              </span>
+              <time>{outcome.occurredOn}</time>
+              <div><strong>{outcome.outcome}</strong><p>{outcome.system} · {outcome.detail}</p></div>
+              <span className="history-source">{sourceById(snapshot, outcome.sourceId)?.name}</span>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section className="section sources-panel" id="sources" aria-labelledby="sources-title">
+        <div className="section-heading">
+          <div>
+            <p className="eyebrow">Source ledger</p>
+            <h2 id="sources-title">Where every claim comes from</h2>
+          </div>
+          <span className="quiet-pill">No secrets or personal data</span>
+        </div>
+        <div className="sources-grid">
+          {snapshot.sources.map((source) => (
+            <details key={source.id} className={source.availability === "missing" ? "source-missing" : ""}>
+              <summary>
+                <span className={`source-dot source-${source.availability}`} />
+                <span><strong>{source.name}</strong><small>{source.kind}</small></span>
+                <time>{source.observedOn}</time>
+              </summary>
+              <div className="source-detail">
+                <span>{source.location}</span>
+                <p>{source.note}</p>
+              </div>
+            </details>
+          ))}
         </div>
       </section>
 
       <footer>
-        <span>Life OS Control View · v0.1</span>
-        <span>Visibility first. Live telemetry and controls come next.</span>
+        <span>Life OS Operating Cockpit · read-only v1</span>
+        <span>
+          {snapshot.telemetry.status === "live" ? "Production health connected" : "Reviewed source snapshot"}
+          {" · private access unchanged"}
+        </span>
       </footer>
     </main>
   );

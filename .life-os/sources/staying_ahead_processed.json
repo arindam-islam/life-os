@@ -1,0 +1,28 @@
+{
+  "source_name": "Staying Ahead Daily AI Updates",
+  "source_url": "https://stayingahead.com/daily-ai-updates",
+  "curator": "staying-ahead-curator",
+  "last_checked_at": "2026-08-12T19:04:00+05:30",
+  "status": "ACTIVE_SCHEDULED",
+  "schedule_task_id": "task-129",
+  "cadence": "EVERY_12_HOURS",
+  "processed_items": [
+    {
+      "id": "staying-ahead-site-baseline",
+      "title": "Staying Ahead Free AI Community",
+      "url": "https://stayingahead.com/daily-ai-updates",
+      "author": "Vaibhav Sisinty / GrowthSchool",
+      "resource_type": "web_portal",
+      "extracted_principle": "Aggressive AI leverage for productivity, business, income, and automation",
+      "intended_outcome": "Continuous external AI intelligence ingestion for Life OS",
+      "prerequisites": "Browser subagent or HTTP extraction",
+      "risks_or_cost": "Zero cost; community resource",
+      "decision": "ADOPT",
+      "provenance": {
+        "source": "https://stayingahead.com/daily-ai-updates",
+        "date_captured": "2026-08-12",
+        "verification_status": "VERIFIED_ACTIVE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+# Life OS Status Bridge
+
+This is the read-only production data source for the Life OS Control View. It
+returns operational metadata only:
+
+- current health for n8n, YouTube Enrichment, and OmniRoute;
+- workflow success/failure counts for the last 24 hours;
+- recent execution metadata (workflow, status, mode, time, and duration);
+- active workflow names and freshness timestamps.
+
+It never reads execution payloads, credentials, environment files, captured
+content, or personal data. It does not provide any write endpoint.
+
+## Security boundary
+
+- Docker publishes it on Oracle loopback only (`127.0.0.1:8788`).
+- Requires a dedicated bearer token of at least 32 characters.
+- Opens the n8n SQLite database in read-only mode.
+- Reaches only the three named services on the existing private Docker network.
+- Runs as a non-root user with a read-only root filesystem and no Docker socket.
+- Returns `Cache-Control: no-store` and does not log request headers.
+
+The public HTTPS route and Sites secret must not be activated until the owner
+approves the new read-only access path. Do not reuse the iPhone capture token.
+
+## Local validation
+
+```sh
+python3 -m unittest discover -s tests -v
+python3 -m py_compile app.py
+```
+
+## Approval-gated production activation
+
+After explicit approval:
+
+1. Generate a dedicated token directly on Oracle and store it in
+   `/etc/life-os/status-bridge.env` with root-only permissions. Never print or
+   commit it.
+2. Build and start only `status-bridge` with Compose `--no-deps`, then confirm
+   its loopback health endpoint. Do not recreate n8n, YouTube Enrichment, or
+   OmniRoute.
+3. Add an exact Caddy handler before the existing catch-all n8n handler:
+
+   ```caddyfile
+   handle /life-os/status {
+       reverse_proxy 127.0.0.1:8788
+   }
+   ```
+
+4. Store the same token as the private Sites runtime secret and configure the
+   server-side dashboard proxy. The browser must never receive the token.
+5. Confirm unauthenticated requests return `401`, authenticated requests expose
+   metadata only, and dashboard refreshes never reveal a token or payload.
+
+Rollback is limited to removing the exact Caddy handler, stopping only the
+status bridge container, and removing its dedicated token. n8n, OmniRoute,
+YouTube Enrichment, their volumes, and their credentials stay untouched.

@@ -11,6 +11,13 @@ workflow bodies, pinned data, credentials, or secret values:
 - Its observed input fields are `raw_input`, `normalized_input`, `content`,
   `source_type`, `source_url`, `title`, and `type`.
 - Production contains zero Slack credentials and zero Slack Trigger nodes.
+- The Capture Processor does not reference `deduplication_key` or
+  `source_metadata`, so those extra fields are not currently durable guarantees.
+- Installed n8n includes Remove Duplicates v2 with persistent cross-execution
+  history. The adapter scopes a 10,000-key history to its deduplication node.
+- The adapter normalizer passed synthetic runtime checks for Slack-formatted and
+  plain links, wrong-channel events, bot messages, edits, and file minimization.
+  These checks did not execute a production workflow.
 
 The adapter therefore calls
 `http://127.0.0.1:5678/webhook/life-os/capture`. Loopback keeps the handoff inside
@@ -53,15 +60,25 @@ Use one harmless public documentation URL and no personal or confidential text.
 4. Confirm exactly one Capture Processor execution succeeds and exactly one
    durable capture is created. Confirm the existing Truthful/Saved outcome is
    still produced.
-5. Replay the same normalized test event once. If a second durable capture is
-   created, stop: idempotency is not proven and activation is blocked. Adding a
-   persistent uniqueness guard is a separate production change.
+5. Replay the same normalized test event once. Confirm **Suppress Previously
+   Captured Message** sends it to the unconnected Discarded output and that no
+   second Capture Processor execution or durable capture is created. If not,
+   activation is blocked.
 6. Confirm Capture Processor remains active and unchanged, and n8n and
    OmniRoute container identities and health are unchanged.
 
 The test creates a production capture. Keep it labelled as a harmless test
 record. Deleting it is a separate destructive action and is not part of this
 plan.
+
+## Failure and recovery behavior
+
+The persistent duplicate node records a key before the HTTP handoff. The HTTP
+node retries a transient failure three times. If all three attempts fail, the
+workflow must show Failed; it must not claim a saved capture. Deactivate the
+adapter and recover manually from the original Slack message after diagnosis.
+Clearing the whole deduplication history is not an automatic recovery step
+because it could re-admit unrelated messages.
 
 ## Rollback
 
