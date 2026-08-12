@@ -2,43 +2,58 @@ services:
   n8n:
     image: docker.n8n.io/n8nio/n8n:2.31.6
     container_name: n8n
-  youtube-enricher:
-    build:
-      context: ./youtube-enricher
-    container_name: youtube-enricher
     restart: unless-stopped
-    expose:
-      - "8080"
-
-    restart: unless-stopped
-
     ports:
       - "127.0.0.1:5678:5678"
-
     env_file:
-      - .env
-
+      - path: ${N8N_ENV_FILE:-.env}
+        required: true
     environment:
-      - N8N_HOST=arindam-n8n.duckdns.org
-      - N8N_PORT=5678
-      - N8N_PROTOCOL=https
-      - WEBHOOK_URL=https://arindam-n8n.duckdns.org/
-      - N8N_EDITOR_BASE_URL=https://arindam-n8n.duckdns.org/
-      - N8N_RESTRICT_FILE_ACCESS_TO="/files"
-
+      N8N_HOST: ${N8N_HOST}
+      N8N_PORT: ${N8N_PORT:-5678}
+      N8N_PROTOCOL: ${N8N_PROTOCOL:-https}
+      WEBHOOK_URL: ${WEBHOOK_URL}
+      N8N_EDITOR_BASE_URL: ${N8N_EDITOR_BASE_URL}
+      N8N_RESTRICT_FILE_ACCESS_TO: ${N8N_RESTRICT_FILE_ACCESS_TO:-/files}
     volumes:
       - ./data:/home/node/.n8n
       - ./files:/files
-
     healthcheck:
       test: ["CMD", "wget", "--spider", "-q", "http://localhost:5678/healthz"]
       interval: 30s
       timeout: 10s
       retries: 5
       start_period: 30s
-
     logging:
       driver: json-file
       options:
         max-size: "10m"
         max-file: "5"
+
+  youtube-enricher:
+    build:
+      context: ./youtube-enricher
+    container_name: youtube-enricher
+    restart: unless-stopped
+    init: true
+    expose:
+      - "8080"
+    environment:
+      YTDLP_TIMEOUT_SECONDS: "60"
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - >-
+          import urllib.request;
+          urllib.request.urlopen('http://127.0.0.1:8080/health', timeout=3).read()
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"

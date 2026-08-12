@@ -1,10 +1,28 @@
+FROM denoland/deno:bin-2.8.1 AS deno
+
 FROM python:3.12-slim
 
-RUN pip install --no-cache-dir flask yt-dlp
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PIP_DISABLE_PIP_VERSION_CHECK=1 \
+    PIP_NO_CACHE_DIR=1
+
+COPY --from=deno /deno /usr/local/bin/deno
+
+RUN useradd --create-home --uid 10001 --shell /usr/sbin/nologin appuser
 
 WORKDIR /app
-COPY app.py /app/app.py
+
+COPY requirements.txt ./
+RUN python -m pip install --no-cache-dir --requirement requirements.txt
+
+COPY --chown=appuser:appuser app.py ./app.py
+
+USER appuser
 
 EXPOSE 8080
 
-CMD ["flask", "--app", "app", "run", "--host=0.0.0.0", "--port=8080"]
+HEALTHCHECK --interval=30s --timeout=5s --start-period=10s --retries=3 \
+    CMD ["python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8080/health', timeout=3).read()"]
+
+CMD ["gunicorn", "--bind=0.0.0.0:8080", "--workers=2", "--threads=2", "--timeout=75", "--graceful-timeout=10", "--access-logfile=-", "--error-logfile=-", "app:app"]
