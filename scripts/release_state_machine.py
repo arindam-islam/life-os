@@ -87,11 +87,11 @@ def check_git_commit_and_worktree(commit_sha):
             errors.append(f"Repository HEAD ({current_head[:7]}) does not match candidate commit ({commit_sha[:7]}).")
 
         res_status = subprocess.run(
-            ["git", "status", "--porcelain"],
+            ["git", "status", "--porcelain", "--", ":(exclude).life-os/", ":(exclude)staging/receipts/"],
             cwd=WORKSPACE_ROOT, capture_output=True, text=True
         )
         if res_status.stdout.strip():
-            errors.append("Repository worktree is dirty with uncommitted tracked/untracked changes.")
+            errors.append("Repository worktree has uncommitted code changes outside runtime state storage.")
     except Exception as ex:
         errors.append(f"Failed executing git verification: {ex}")
 
