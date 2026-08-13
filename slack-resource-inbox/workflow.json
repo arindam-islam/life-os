@@ -70,17 +70,10 @@
       "parameters": {
         "method": "POST",
         "url": "http://127.0.0.1:5678/webhook/life-os/capture",
-        "authentication": "headerAuth",
         "sendBody": true,
         "specifyBody": "json",
         "jsonBody": "={{ JSON.stringify({\n  raw_input: $json.content,\n  normalized_input: $json.content,\n  content: $json.content,\n  source_type: 'slack_resource_inbox',\n  source_url: $json.primary_url,\n  title: ($json.content || 'Slack resource').split('\\n')[0].slice(0, 160),\n  type: 'resource',\n  deduplication_key: $json.deduplication_key,\n  source_metadata: $json.source_metadata\n}) }}",
         "options": {}
-      },
-      "credentials": {
-        "httpHeaderAuth": {
-          "id": "RgcjUerIdXEsRqZ7",
-          "name": "Life OS Capture Auth"
-        }
       },
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.4,
