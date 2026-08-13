@@ -1,4 +1,5 @@
 {
+  "id": "slack_resource_inbox_v1",
   "name": "Life OS - Slack Resource Inbox Adapter",
   "nodes": [
     {
