@@ -4,20 +4,23 @@
   "nodes": [
     {
       "parameters": {
-        "httpMethod": "POST",
-        "path": "life-os/slack-inbox",
-        "responseMode": "responseNode",
+        "trigger": [
+          "message"
+        ],
+        "watchWorkspace": false,
+        "channelId": {
+          "value": "C0BPQBNTK8R"
+        },
         "options": {}
       },
-      "type": "n8n-nodes-base.webhook",
-      "typeVersion": 2,
+      "type": "n8n-nodes-base.slackTrigger",
+      "typeVersion": 1,
       "position": [
         -480,
         0
       ],
       "id": "9a03e8bc-f3f9-4ad4-aad7-6b4f33829d6e",
-      "name": "Watch Private Resource Inbox Webhook",
-      "webhookId": "1f36a5c9-298f-43cb-9cf0-78431d3e5f9c"
+      "name": "Watch Private Resource Inbox"
     },
     {
       "parameters": {
@@ -31,21 +34,6 @@
       ],
       "id": "75854466-a216-405d-810d-727ac7200b33",
       "name": "Normalize and Guard Inbox Event"
-    },
-    {
-      "parameters": {
-        "respondWith": "json",
-        "responseBody": "={{ JSON.stringify($json) }}",
-        "options": {}
-      },
-      "type": "n8n-nodes-base.respondToWebhook",
-      "typeVersion": 1.1,
-      "position": [
-        0,
-        -150
-      ],
-      "id": "5f600f12-0056-42d8-bf88-123456789abc",
-      "name": "Respond to Slack Challenge"
     },
     {
       "parameters": {
@@ -70,6 +58,8 @@
       "parameters": {
         "method": "POST",
         "url": "http://127.0.0.1:5678/webhook/life-os/capture",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
         "sendBody": true,
         "specifyBody": "json",
         "jsonBody": "={{ JSON.stringify({\n  raw_input: $json.content,\n  normalized_input: $json.content,\n  content: $json.content,\n  source_type: 'slack_resource_inbox',\n  source_url: $json.primary_url,\n  title: ($json.content || 'Slack resource').split('\\n')[0].slice(0, 160),\n  type: 'resource',\n  deduplication_key: $json.deduplication_key,\n  source_metadata: $json.source_metadata\n}) }}",
@@ -86,41 +76,10 @@
       "retryOnFail": true,
       "maxTries": 3,
       "waitBetweenTries": 5000
-    },
-    {
-      "parameters": {
-        "method": "POST",
-        "url": "https://slack.com/api/chat.postMessage",
-        "sendHeaders": true,
-        "headerParameters": {
-          "parameters": [
-            {
-              "name": "Authorization",
-              "value": "Bearer xoxb-11700817286182-11809706620944-iWk9eJ8avcIF3YTWYCmKiEHH"
-            },
-            {
-              "name": "Content-Type",
-              "value": "application/json; charset=utf-8"
-            }
-          ]
-        },
-        "sendBody": true,
-        "specifyBody": "json",
-        "jsonBody": "={{ JSON.stringify({\n  channel: $json.source_metadata.channel_id,\n  thread_ts: $json.source_metadata.message_ts,\n  text: '🎬 *Resource Ingested & Indexed*\\n\\n• *Link*: ' + ($json.primary_url || $json.content) + '\\n• *Captured At*: ' + $json.captured_at + '\\n• *Status*: Saved to Life OS Inbox Engine.'\n}) }}",
-        "options": {}
-      },
-      "type": "n8n-nodes-base.httpRequest",
-      "typeVersion": 4.4,
-      "position": [
-        540,
-        0
-      ],
-      "id": "d8204918-72bc-4fa1-b1e9-4089887711aa",
-      "name": "Post Threaded Summary to Slack"
     }
   ],
   "connections": {
-    "Watch Private Resource Inbox Webhook": {
+    "Watch Private Resource Inbox": {
       "main": [
         [
           {
@@ -134,11 +93,6 @@
     "Normalize and Guard Inbox Event": {
       "main": [
         [
-          {
-            "node": "Respond to Slack Challenge",
-            "type": "main",
-            "index": 0
-          },
           {
             "node": "Suppress Previously Captured Message",
             "type": "main",
@@ -154,11 +108,6 @@
             "node": "Forward to Authenticated Capture Webhook",
             "type": "main",
             "index": 0
-          },
-          {
-            "node": "Post Threaded Summary to Slack",
-            "type": "main",
-            "index": 0
           }
         ],
         []
@@ -166,7 +115,7 @@
     }
   },
   "pinData": {},
-  "active": true,
+  "active": false,
   "settings": {
     "executionOrder": "v1"
   },
