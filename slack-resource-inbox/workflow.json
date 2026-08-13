@@ -6,6 +6,7 @@
       "parameters": {
         "httpMethod": "POST",
         "path": "life-os/slack-inbox",
+        "responseMode": "responseNode",
         "options": {}
       },
       "type": "n8n-nodes-base.webhook",
@@ -30,6 +31,21 @@
       ],
       "id": "75854466-a216-405d-810d-727ac7200b33",
       "name": "Normalize and Guard Inbox Event"
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ JSON.stringify($json) }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [
+        0,
+        -150
+      ],
+      "id": "5f600f12-0056-42d8-bf88-123456789abc",
+      "name": "Respond to Slack Challenge"
     },
     {
       "parameters": {
@@ -89,6 +105,11 @@
     "Normalize and Guard Inbox Event": {
       "main": [
         [
+          {
+            "node": "Respond to Slack Challenge",
+            "type": "main",
+            "index": 0
+          },
           {
             "node": "Suppress Previously Captured Message",
             "type": "main",
