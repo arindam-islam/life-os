@@ -86,6 +86,37 @@
       "retryOnFail": true,
       "maxTries": 3,
       "waitBetweenTries": 5000
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://slack.com/api/chat.postMessage",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "Bearer xoxb-11700817286182-11809706620944-iWk9eJ8avcIF3YTWYCmKiEHH"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({\n  channel: $json.source_metadata.channel_id,\n  thread_ts: $json.source_metadata.message_ts,\n  text: '🎬 *Resource Ingested & Indexed*\\n\\n• *Link*: ' + ($json.primary_url || $json.content) + '\\n• *Captured At*: ' + $json.captured_at + '\\n• *Status*: Saved to Life OS Inbox Engine.'\n}) }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        540,
+        0
+      ],
+      "id": "d8204918-72bc-4fa1-b1e9-4089887711aa",
+      "name": "Post Threaded Summary to Slack"
     }
   ],
   "connections": {
@@ -121,6 +152,11 @@
         [
           {
             "node": "Forward to Authenticated Capture Webhook",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Post Threaded Summary to Slack",
             "type": "main",
             "index": 0
           }
