@@ -153,3 +153,46 @@ When resuming or starting execution, execute this exact 5-step sequence:
 3. **Refresh Production Facts:** Perform read-only SSH check via `life-os-prod` for container health, identities, and active routes.
 4. **Ask Only for Next Material Decision:** Report status in founder format and request approval ONLY if an approval gate is reached.
 5. **Complete One Lane and Report:** Execute in-scope work, verify acceptance, and report final outcome.
+
+---
+
+## 11. AGENT DIRECTIVE: QUOTA OPTIMIZATION & AUTOMATED HANDOVER PROTOCOL
+
+## 11.1. QUOTA PRESERVATION & TOKEN SAVINGS
+- **Modular Context Reading:** Do NOT scan or load the entire repository into memory. Read ONLY explicitly tagged files (e.g., `@filename.md`).
+- **Diff-First Outputs:** Do NOT output complete code or markdown files in chat responses. Apply edits directly to files using diffs and summarize changes in 1-2 concise sentences.
+- **Concise Reasoning:** Keep chat explanations minimal, clear, and direct. Eliminate conversational filler, pleasantries, and unnecessary boilerplate.
+- **Loop Prevention:** If a terminal command or script execution fails twice consecutively, STOP immediately. Do NOT loop retries—prompt the user for guidance.
+
+---
+
+## 11.2. AUTOMATED CHAT LENGTH MONITORING & HANDOVER PROTOCOL
+- **Turn Counter:** Secretly track interaction turn counts within the active chat thread.
+- **13th Response Trigger:** Upon receiving the user's 12th prompt, generate the requested response on turn 13, then append the following handover section at the very end:
+
+---
+⚠️ **CHAT LENGTH THRESHOLD REACHED (Turn 13/15)**
+To prevent context degradation and save token quota, please start a new thread.
+
+👉 **To migrate immediately:** Copy the handover block below and paste it into a new chat.
+👉 **To continue this thread:** Reply with `CONTINUE_THREAD`.
+
+### 🔄 MIGRATION CONTEXT HANDOVER
+```markdown
+---
+### 🔄 LIFE OS CONTEXT HANDOVER
+
+**Active Component:** [Life OS module or task name]
+**Current State & Progress:** [Brief 2-sentence summary of what was accomplished in this chat]
+
+**Key Files Modified/Relevant:**
+- `@path/to/file1.md`
+- `@path/to/file2.py`
+
+**Pending Tasks & Next Steps:**
+1. [Next task to execute]
+2. [Follow-up action item]
+
+**Directive for New Chat:** Read `@AGENTS.md` and continue execution directly from Pending Tasks above.
+
+---

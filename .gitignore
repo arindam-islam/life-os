@@ -21,6 +21,8 @@ The
 __pycache__/
 *.pyc
 .venv/
+venv/
+.life-os/career_ops/venv/
 
 # Editor
 .vscode/

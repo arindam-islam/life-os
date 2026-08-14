@@ -1,7 +1,7 @@
 {
   "system": "Life OS",
   "status": "OPERATIONAL",
-  "last_audit": "2026-08-12T19:10:00+05:30",
+  "last_audit": "2026-08-14T06:40:00+05:30",
   "verification_method": "EMPIRICAL_SSH_RUNTIME_CHECK",
   "active_components": {
     "n8n": {
@@ -26,11 +26,11 @@
       "container_id": "5a6e28594a4d"
     },
     "slack-resource-inbox": {
-      "status": "IMPLEMENTED",
-      "verification": "VERIFIED_IMPORTED_INACTIVE",
-      "health": "TESTED_LOCAL",
+      "status": "DEPLOYED",
+      "verification": "VERIFIED_LIVE",
+      "health": "HEALTHY",
       "workflow_id": "slack_resource_inbox_v1",
-      "deployment_state": "IMPORTED_BOUND_HEADER_AUTH"
+      "deployment_state": "ACTIVE"
     },
     "status-bridge": {
       "status": "IMPLEMENTED",
@@ -44,18 +44,6 @@
       "health": "HEALTHY",
       "local_url": "http://localhost:3000",
       "persistent_plan": "ORACLE_CONTAINER_CADDY_AUTH"
-    },
-    "release-pipeline": {
-      "status": "IMPLEMENTED_LOCAL_PROTOTYPE",
-      "verification": "LOCAL_UNCOMMITTED_PROTOTYPE",
-      "health": "DRAFT_UNCOMMITTED_PROTOTYPE",
-      "version": "1.0.0-hardened-prototype",
-      "ledger": ".life-os/releases/release_ledger.json",
-      "schema": ".life-os/schemas/release_schema.json",
-      "cli": "scripts/release_state_machine.py",
-      "active_release": "REL-20260812-4713b2782b54f4c624e38551f4f527b79cc4545b",
-      "release_candidate_state": "DRAFT",
-      "staging_gate_state": "BLOCKED_NO_ISOLATED_ENV"
     }
   },
   "telemetry_24h": {
@@ -65,7 +53,7 @@
   },
   "tracks": {
     "Track A (Ingestion)": "VERIFIED_LIVE",
-    "Track B (Slack Capture)": "IMPORTED_INACTIVE",
+    "Track B (Slack Capture)": "VERIFIED_LIVE",
     "Track C (Cockpit Dashboard)": "LIVE_LOCAL_PERSISTENCE_READY",
     "Track D (Enrichment)": "VERIFIED_LIVE",
     "Track E (Agent Architecture)": "BOOTSTRAPPED",

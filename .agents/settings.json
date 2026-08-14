@@ -1,0 +1,30 @@
+{
+  "antigravity.agent.terminal.autoExecutionPolicy": "always",
+  "antigravity.permissions": {
+    "allow": [
+      "read_file(*)",
+      "write_file(~/Documents/life-os/*)",
+      "command(git status)",
+      "command(git diff)",
+      "command(git log)",
+      "command(npm run test)",
+      "command(ls)",
+      "command(cat)"
+    ],
+    "ask": [
+      "command(ssh .*)",
+      "command(docker .*)",
+      "command(docker-compose .*)",
+      "command(git push .*)",
+      "command(.*sqlite3 .*)",
+      "command(.*DROP.*)",
+      "command(.*DELETE.*)"
+    ],
+    "deny": [
+      "command(rm -rf .*)",
+      "command(sudo .*)",
+      "write_file(~/.ssh/*)",
+      "write_file(~/.zshrc)"
+    ]
+  }
+}
