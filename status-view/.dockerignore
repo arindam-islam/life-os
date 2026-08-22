@@ -3,7 +3,6 @@ node_modules
 .vinext
 .wrangler
 dist
-build
 .git
 .DS_Store
 .env
