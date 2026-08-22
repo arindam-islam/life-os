@@ -11,7 +11,7 @@ SYS_PATH = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if SYS_PATH not in sys.path:
     sys.path.insert(0, SYS_PATH)
 
-from scripts.ast_code_graph import build_ast_graph, query_symbol, AST_GRAPH_PATH
+from archive.prototypes.ast_code_graph import build_ast_graph, query_symbol, AST_GRAPH_PATH
 
 
 class TestASTCodeGraph(unittest.TestCase):

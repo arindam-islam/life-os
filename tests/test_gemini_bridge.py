@@ -11,7 +11,7 @@ SYS_PATH = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if SYS_PATH not in sys.path:
     sys.path.insert(0, SYS_PATH)
 
-from scripts.gemini_antigravity_bridge import dispatch_agy_command, BRIDGE_STATE_PATH, NOTES_INDEX_PATH, load_json
+from archive.prototypes.gemini_antigravity_bridge import dispatch_agy_command, BRIDGE_STATE_PATH, NOTES_INDEX_PATH, load_json
 
 
 class TestGeminiBridgeAGY(unittest.TestCase):

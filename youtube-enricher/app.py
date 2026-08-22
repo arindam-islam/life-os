@@ -239,7 +239,7 @@ def health():
 
     yt_dlp_available = shutil.which("yt-dlp") is not None
     deno_available = shutil.which("deno") is not None
-    healthy = bool(yt_dlp_version and yt_dlp_available and deno_available)
+    healthy = bool(yt_dlp_available and deno_available)
     payload = {
         "ok": healthy,
         "service": SERVICE_NAME,

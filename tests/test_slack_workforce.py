@@ -12,7 +12,7 @@ from pathlib import Path
 # Add project root to sys.path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from scripts.slack_workforce_agents import (
+from archive.prototypes.slack_workforce_agents import (
     qualify_b2b_lead,
     generate_content_package,
     analyze_dev_diagnostic,
