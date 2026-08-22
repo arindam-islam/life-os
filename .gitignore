@@ -42,3 +42,12 @@ dist/
 # Audit outputs
 
 audit_*.txt
+
+# Local generated Life OS data
+.life-os/areas/
+.life-os/career_ops/*.pdf
+.life-os/career_ops/pdf_assets/
+.life-os/career_ops/personal_data_and_history.*
+
+# Archived experiments
+archive/
