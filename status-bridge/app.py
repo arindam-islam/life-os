@@ -25,7 +25,6 @@ DEFAULT_HOST = "127.0.0.1"
 DEFAULT_PORT = 8788
 DEFAULT_N8N_HEALTH_URL = "http://n8n:5678/healthz"
 DEFAULT_YOUTUBE_HEALTH_URL = "http://youtube-enricher:8080/health"
-DEFAULT_OMNIROUTE_HEALTH_URL = "http://omniroute:20128/"
 
 
 def utc_now() -> datetime:
@@ -56,7 +55,6 @@ class BridgeConfig:
     port: int = DEFAULT_PORT
     n8n_health_url: str = DEFAULT_N8N_HEALTH_URL
     youtube_health_url: str = DEFAULT_YOUTUBE_HEALTH_URL
-    omniroute_health_url: str = DEFAULT_OMNIROUTE_HEALTH_URL
 
     @classmethod
     def from_environment(cls) -> "BridgeConfig":
@@ -73,9 +71,6 @@ class BridgeConfig:
             ),
             youtube_health_url=os.environ.get(
                 "LIFE_OS_YOUTUBE_HEALTH_URL", DEFAULT_YOUTUBE_HEALTH_URL
-            ),
-            omniroute_health_url=os.environ.get(
-                "LIFE_OS_OMNIROUTE_HEALTH_URL", DEFAULT_OMNIROUTE_HEALTH_URL
             ),
         )
 
@@ -193,7 +188,6 @@ def build_status(
 
     for system_id, display_name, health_url in (
         ("youtube-enricher", "YouTube enrichment", config.youtube_health_url),
-        ("omniroute", "AI model routing", config.omniroute_health_url),
     ):
         state = http_health(health_url)
         systems.append({"id": system_id, "name": display_name, **state})

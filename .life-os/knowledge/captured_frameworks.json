@@ -1,0 +1,18 @@
+[
+  {
+    "id": "AGY-CAP-1786574140",
+    "source": "Gemini_Chat",
+    "captured_at": "2026-08-13T04:05:40.501431+05:30",
+    "directive": "agy take this: ideal prompt setup for faceless YouTube channel pipeline",
+    "payload": ": ideal prompt setup for faceless YouTube channel pipeline",
+    "status": "INGESTED_EXECUTIVE_ACTION_TRIGGERED"
+  },
+  {
+    "id": "AGY-CAP-1786574147",
+    "source": "Test_Gemini",
+    "captured_at": "2026-08-13T04:05:47.453150+05:30",
+    "directive": "agy take this faceless channel setup instructions",
+    "payload": "faceless channel setup instructions",
+    "status": "INGESTED_EXECUTIVE_ACTION_TRIGGERED"
+  }
+]

@@ -1,0 +1,12 @@
+Dear Hiring Manager at Fulfil.IO,
+
+I am writing to express my strong enthusiasm for the Product Consultant (Associate) - Supply Chain position at Fulfil.IO. Having spent over 7 years managing high-intensity Product & Technical Operations across enterprise SaaS platforms, I thrive as a "Manager of One" who dives deep into root cause analysis (RCA), interprets Python code, and leverages modern AI workflows to solve operational challenges.
+
+At Get My Parking, I led a team of 20 operations engineers supporting 60+ enterprise clients across 200+ global sites, where I reduced Average Resolution Time (ART) from 8+ hours to ~3 hours and executed a zero-downtime migration of 5,000+ customer payment profiles to Adyen. Previously at Bounce, I built internal ERP and ticketing workflows using Retool and Appsmith, cutting operational bottlenecks by 25%.
+
+Fulfil's high-agency culture, 100% execution efficiency, and AI-integrated ERP mission align perfectly with my technical problem-solving background. I am based in Bangalore and fully ready for the 5:30 PM - 2:30 AM IST shift.
+
+Best regards,
+
+Arindam Islam
++91-8553775736 | arindambevan04@gmail.com

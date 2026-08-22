@@ -1,0 +1,30 @@
+[
+  {
+    "timestamp": "2026-08-13T06:35:50.055074",
+    "title": "Fulfil.io Video Recording Reminder",
+    "body": "Hey Arindam! Reminder to record your 60-second video script for Fulfil.io (Product Consultant - \u20b916-20 LPA). Once recorded, drop it in Downloads to auto-submit!",
+    "status": "DISPATCHED_TO_SLACK_CAREER_OPS_INBOX",
+    "channel": "#career-ops-inbox"
+  },
+  {
+    "timestamp": "2026-08-13T06:35:02.055765",
+    "title": "Fulfil.io Video Recording Reminder",
+    "body": "Hey Arindam! Reminder to record your 60-second video script for Fulfil.io (Product Consultant - \u20b916-20 LPA). Once recorded, drop it in Downloads to auto-submit!",
+    "status": "ERROR: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "channel": "#career-ops-inbox"
+  },
+  {
+    "timestamp": "2026-08-13T06:30:13.992267",
+    "title": "Fulfil.io Video Recording Reminder",
+    "body": "Hey Arindam! Reminder to record your 60-second video script for Fulfil.io (Product Consultant - \u20b916-20 LPA). Once recorded, drop it in Downloads to auto-submit!",
+    "status": "LOGGED_LOCAL_DESK_JOURNAL (#career-ops-inbox)",
+    "channel": "#career-ops-inbox"
+  },
+  {
+    "timestamp": "2026-08-13T06:23:42.480727",
+    "title": "\ud83c\udfac Action Required: Record 60-Second Video for Fulfil.io Application (JOB-FULFIL-001)",
+    "body": "Hey Arindam! Quick reminder to record your 60-second video answering the 2 questions for Fulfil.io (Product Consultant role - \u20b916-20 LPA). Script is ready in your chat. Once recorded, paste the .mp4 path or put it in Downloads to trigger instant Playwright auto-submission!",
+    "status": "DISPATCHED_AND_LOGGED",
+    "channel": "#career-ops-inbox"
+  }
+]

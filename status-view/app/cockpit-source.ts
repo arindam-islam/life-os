@@ -151,17 +151,6 @@ export const cockpitSnapshot: CockpitSnapshot = {
       detail: "Container fa27ae3131bc healthy. 36/42 24h executions succeeded.",
     },
     {
-      id: "omniroute",
-      name: "OmniRoute",
-      role: "AI Model Proxy Router",
-      state: "healthy",
-      reading: "DEPLOYED / VERIFIED_LIVE",
-      observedOn: "12 Aug 2026 19:04 IST",
-      freshness: "Verified SSH audit",
-      sourceIds: ["production-acceptance"],
-      detail: "Container afe64aa1a646 healthy on port 20128.",
-    },
-    {
       id: "youtube-enricher",
       name: "YouTube Enricher",
       role: "Video Metadata Extraction API",

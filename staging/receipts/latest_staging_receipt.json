@@ -5,9 +5,9 @@
   "acceptance_receipt": {
     "command": "python3 scripts/run_staging_acceptance.py",
     "result": "PASSED_2_SYNTHETIC_ITEMS",
-    "commit_sha": "4713b2782b54f4c624e38551f4f527b79cc4545b",
-    "artifact_digest": "7b74dd93b5f9fd4850aa8a8f9ca71781f89adebe76821e19b52f621396881cf8",
-    "timestamp": "2026-08-12T20:22:30.054534+05:30"
+    "commit_sha": "c1ecdcccd7c92d564faa0cc771728e4eab4cd128",
+    "artifact_digest": "23c6d68ccc4fc8ba337b0a8531fa8770d35555752a9ef852b051ba60f4bc43eb",
+    "timestamp": "2026-08-12T20:24:40.058189+05:30"
   },
   "processed_count": 2
 }

@@ -1,0 +1,14 @@
+[Unit]
+Description=Life OS 24/7 Slack Workforce Agent Server
+After=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/projects/n8n
+ExecStart=/usr/bin/python3 /usr/local/bin/slack_workforce_agents.py
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,10 @@
+{
+  "command_id": "CMD-1787320871",
+  "trigger": "agy",
+  "raw_command": "agy what are todays tasks left",
+  "parsed_instruction": "what are todays tasks left",
+  "intent": "TASKS_QUERIED",
+  "response": "Active Life OS Tracks (2): Track F (Knowledge Base): ACTIVE; Track G (Security & Audit): ACTIVE",
+  "timestamp": "2026-08-21T19:31:11.101461+05:30",
+  "active_agent": "Antigravity Engineering System"
+}

@@ -1,15 +1,1 @@
----
-name: qa-verification
-description: QA & Independent Verification Agent rules for verifying outcomes, acceptance testing, runtime sanity checks, and preventing false success claims.
----
-
-# QA & Verification Skill
-
-This skill governs independent outcome verification and acceptance testing.
-
-## Invariants
-
-1. **Empirical Proof Required:** Never declare a feature or fix done based solely on written code. Run automated tests, check endpoints, and inspect logs.
-2. **Acceptance Criteria Validation:** Verify each explicit acceptance criterion independently.
-3. **Status Truthfulness:** Label states accurately: `PLANNED`, `IN_PROGRESS`, `IMPLEMENTED`, `TESTED`, `DEPLOYED`, `VERIFIED`, `BLOCKED`, `DEGRADED`.
-4. **Regression Prevention:** Execute existing regression test suites (`slack-resource-inbox`, `status-bridge`, `docker compose config`, `git diff --check`) before reporting success.
+---name: qa-verificationdescription: QA & Independent Verification Agent rules for verifying outcomes, acceptance testing, runtime sanity checks, and preventing false success claims.---# QA & Verification SkillThis skill governs independent outcome verification and acceptance testing.## Invariants1. **Empirical Proof Required:** Never declare a feature or fix done based solely on written code. Run automated tests, check endpoints, and inspect logs.2. **Acceptance Criteria Validation:** Verify each explicit acceptance criterion independently.3. **Status Truthfulness:** Label states accurately: `PLANNED`, `IN_PROGRESS`, `IMPLEMENTED`, `TESTED`, `DEPLOYED`, `VERIFIED`, `BLOCKED`, `DEGRADED`.4. **Regression Prevention:** Execute existing regression test suites (`slack-resource-inbox`, `status-bridge`, `docker compose config`, `git diff --check`) before reporting success.

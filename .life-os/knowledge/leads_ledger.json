@@ -1,0 +1,902 @@
+[
+  {
+    "lead_id": "LEAD-1786674631",
+    "captured_at": "2026-08-14T08:00:31.918648",
+    "user_id": "U_SLACK_USER",
+    "raw_text": "@b2b-lead-agent Client quote request",
+    "score": 50,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786674631",
+    "captured_at": "2026-08-14T08:00:31.919089",
+    "user_id": "U_TEST1",
+    "raw_text": "We need enterprise AI automation with $50k budget ASAP",
+    "score": 100,
+    "status": "QUALIFIED",
+    "budget_estimate": "High / Enterprise",
+    "timeline": "Immediate / High Priority"
+  },
+  {
+    "lead_id": "LEAD-1786674631",
+    "captured_at": "2026-08-14T08:00:31.919291",
+    "user_id": "U_TEST2",
+    "raw_text": "Looking for custom dev quote",
+    "score": 60,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786674656",
+    "captured_at": "2026-08-14T08:00:56.944091",
+    "user_id": "U_SLACK_USER",
+    "raw_text": "@b2b-lead-agent Client quote request",
+    "score": 50,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786674656",
+    "captured_at": "2026-08-14T08:00:56.944506",
+    "user_id": "U_TEST1",
+    "raw_text": "We need enterprise AI automation with $50k budget ASAP",
+    "score": 100,
+    "status": "QUALIFIED",
+    "budget_estimate": "High / Enterprise",
+    "timeline": "Immediate / High Priority"
+  },
+  {
+    "lead_id": "LEAD-1786674656",
+    "captured_at": "2026-08-14T08:00:56.944712",
+    "user_id": "U_TEST2",
+    "raw_text": "Looking for custom dev quote",
+    "score": 60,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786675272",
+    "captured_at": "2026-08-14T08:11:12.456463",
+    "user_id": "U_SLACK_USER",
+    "raw_text": "@b2b-lead-agent Client quote request",
+    "score": 50,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786675272",
+    "captured_at": "2026-08-14T08:11:12.457495",
+    "user_id": "U_TEST1",
+    "raw_text": "We need enterprise AI automation with $50k budget ASAP",
+    "score": 100,
+    "status": "QUALIFIED",
+    "budget_estimate": "High / Enterprise",
+    "timeline": "Immediate / High Priority"
+  },
+  {
+    "lead_id": "LEAD-1786675272",
+    "captured_at": "2026-08-14T08:11:12.457754",
+    "user_id": "U_TEST2",
+    "raw_text": "Looking for custom dev quote",
+    "score": 60,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786675306",
+    "captured_at": "2026-08-14T08:11:46.880405",
+    "user_id": "U_SLACK_USER",
+    "raw_text": "@b2b-lead-agent Client quote request",
+    "score": 50,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786675306",
+    "captured_at": "2026-08-14T08:11:46.880885",
+    "user_id": "U_TEST1",
+    "raw_text": "We need enterprise AI automation with $50k budget ASAP",
+    "score": 100,
+    "status": "QUALIFIED",
+    "budget_estimate": "High / Enterprise",
+    "timeline": "Immediate / High Priority"
+  },
+  {
+    "lead_id": "LEAD-1786675306",
+    "captured_at": "2026-08-14T08:11:46.881060",
+    "user_id": "U_TEST2",
+    "raw_text": "Looking for custom dev quote",
+    "score": 60,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786675709",
+    "captured_at": "2026-08-14T08:18:29.444895",
+    "user_id": "U_SLACK_USER",
+    "raw_text": "@b2b-lead-agent Client quote request",
+    "score": 50,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786675709",
+    "captured_at": "2026-08-14T08:18:29.445424",
+    "user_id": "U_TEST1",
+    "raw_text": "We need enterprise AI automation with $50k budget ASAP",
+    "score": 100,
+    "status": "QUALIFIED",
+    "budget_estimate": "High / Enterprise",
+    "timeline": "Immediate / High Priority"
+  },
+  {
+    "lead_id": "LEAD-1786675709",
+    "captured_at": "2026-08-14T08:18:29.445679",
+    "user_id": "U_TEST2",
+    "raw_text": "Looking for custom dev quote",
+    "score": 60,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786676523",
+    "captured_at": "2026-08-14T08:32:03.803936",
+    "user_id": "U_SLACK_USER",
+    "raw_text": "@b2b-lead-agent Client quote request",
+    "score": 50,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786676523",
+    "captured_at": "2026-08-14T08:32:03.804427",
+    "user_id": "U_TEST1",
+    "raw_text": "We need enterprise AI automation with $50k budget ASAP",
+    "score": 100,
+    "status": "QUALIFIED",
+    "budget_estimate": "High / Enterprise",
+    "timeline": "Immediate / High Priority"
+  },
+  {
+    "lead_id": "LEAD-1786676523",
+    "captured_at": "2026-08-14T08:32:03.804752",
+    "user_id": "U_TEST2",
+    "raw_text": "Looking for custom dev quote",
+    "score": 60,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786676990",
+    "captured_at": "2026-08-14T08:39:50.994564",
+    "user_id": "U_SLACK_USER",
+    "raw_text": "@b2b-lead-agent Client quote request",
+    "score": 50,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786676990",
+    "captured_at": "2026-08-14T08:39:50.995400",
+    "user_id": "U_TEST1",
+    "raw_text": "We need enterprise AI automation with $50k budget ASAP",
+    "score": 100,
+    "status": "QUALIFIED",
+    "budget_estimate": "High / Enterprise",
+    "timeline": "Immediate / High Priority"
+  },
+  {
+    "lead_id": "LEAD-1786676990",
+    "captured_at": "2026-08-14T08:39:50.995991",
+    "user_id": "U_TEST2",
+    "raw_text": "Looking for custom dev quote",
+    "score": 60,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786677317",
+    "captured_at": "2026-08-14T08:45:17.882461",
+    "user_id": "U_SLACK_USER",
+    "raw_text": "@b2b-lead-agent Client quote request",
+    "score": 50,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786677317",
+    "captured_at": "2026-08-14T08:45:17.883080",
+    "user_id": "U_TEST1",
+    "raw_text": "We need enterprise AI automation with $50k budget ASAP",
+    "score": 100,
+    "status": "QUALIFIED",
+    "budget_estimate": "High / Enterprise",
+    "timeline": "Immediate / High Priority"
+  },
+  {
+    "lead_id": "LEAD-1786677317",
+    "captured_at": "2026-08-14T08:45:17.883445",
+    "user_id": "U_TEST2",
+    "raw_text": "Looking for custom dev quote",
+    "score": 60,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786677644",
+    "captured_at": "2026-08-14T08:50:44.299444",
+    "user_id": "U_SLACK_USER",
+    "raw_text": "@b2b-lead-agent Client quote request",
+    "score": 50,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786677644",
+    "captured_at": "2026-08-14T08:50:44.300022",
+    "user_id": "U_TEST1",
+    "raw_text": "We need enterprise AI automation with $50k budget ASAP",
+    "score": 100,
+    "status": "QUALIFIED",
+    "budget_estimate": "High / Enterprise",
+    "timeline": "Immediate / High Priority"
+  },
+  {
+    "lead_id": "LEAD-1786677644",
+    "captured_at": "2026-08-14T08:50:44.300337",
+    "user_id": "U_TEST2",
+    "raw_text": "Looking for custom dev quote",
+    "score": 60,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786678045",
+    "captured_at": "2026-08-14T08:57:25.697688",
+    "user_id": "U_SLACK_USER",
+    "raw_text": "@b2b-lead-agent Client quote request",
+    "score": 50,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786678045",
+    "captured_at": "2026-08-14T08:57:25.698162",
+    "user_id": "U_TEST1",
+    "raw_text": "We need enterprise AI automation with $50k budget ASAP",
+    "score": 100,
+    "status": "QUALIFIED",
+    "budget_estimate": "High / Enterprise",
+    "timeline": "Immediate / High Priority"
+  },
+  {
+    "lead_id": "LEAD-1786678045",
+    "captured_at": "2026-08-14T08:57:25.698463",
+    "user_id": "U_TEST2",
+    "raw_text": "Looking for custom dev quote",
+    "score": 60,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786678582",
+    "captured_at": "2026-08-14T09:06:22.057711",
+    "user_id": "U_SLACK_USER",
+    "raw_text": "@b2b-lead-agent Client quote request",
+    "score": 50,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786678582",
+    "captured_at": "2026-08-14T09:06:22.058392",
+    "user_id": "U_TEST1",
+    "raw_text": "We need enterprise AI automation with $50k budget ASAP",
+    "score": 100,
+    "status": "QUALIFIED",
+    "budget_estimate": "High / Enterprise",
+    "timeline": "Immediate / High Priority"
+  },
+  {
+    "lead_id": "LEAD-1786678582",
+    "captured_at": "2026-08-14T09:06:22.058852",
+    "user_id": "U_TEST2",
+    "raw_text": "Looking for custom dev quote",
+    "score": 60,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786678784",
+    "captured_at": "2026-08-14T09:09:44.684706",
+    "user_id": "U_SLACK_USER",
+    "raw_text": "@b2b-lead-agent Client quote request",
+    "score": 50,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786678784",
+    "captured_at": "2026-08-14T09:09:44.685150",
+    "user_id": "U_TEST1",
+    "raw_text": "We need enterprise AI automation with $50k budget ASAP",
+    "score": 100,
+    "status": "QUALIFIED",
+    "budget_estimate": "High / Enterprise",
+    "timeline": "Immediate / High Priority"
+  },
+  {
+    "lead_id": "LEAD-1786678784",
+    "captured_at": "2026-08-14T09:09:44.685439",
+    "user_id": "U_TEST2",
+    "raw_text": "Looking for custom dev quote",
+    "score": 60,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786679891",
+    "captured_at": "2026-08-14T09:28:11.633897",
+    "user_id": "U_SLACK_USER",
+    "raw_text": "@b2b-lead-agent Client quote request",
+    "score": 50,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786679891",
+    "captured_at": "2026-08-14T09:28:11.634363",
+    "user_id": "U_TEST1",
+    "raw_text": "We need enterprise AI automation with $50k budget ASAP",
+    "score": 100,
+    "status": "QUALIFIED",
+    "budget_estimate": "High / Enterprise",
+    "timeline": "Immediate / High Priority"
+  },
+  {
+    "lead_id": "LEAD-1786679891",
+    "captured_at": "2026-08-14T09:28:11.634904",
+    "user_id": "U_TEST2",
+    "raw_text": "Looking for custom dev quote",
+    "score": 60,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786680208",
+    "captured_at": "2026-08-14T09:33:28.158471",
+    "user_id": "U_SLACK_USER",
+    "raw_text": "@b2b-lead-agent Client quote request",
+    "score": 50,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786680208",
+    "captured_at": "2026-08-14T09:33:28.159121",
+    "user_id": "U_TEST1",
+    "raw_text": "We need enterprise AI automation with $50k budget ASAP",
+    "score": 100,
+    "status": "QUALIFIED",
+    "budget_estimate": "High / Enterprise",
+    "timeline": "Immediate / High Priority"
+  },
+  {
+    "lead_id": "LEAD-1786680208",
+    "captured_at": "2026-08-14T09:33:28.159590",
+    "user_id": "U_TEST2",
+    "raw_text": "Looking for custom dev quote",
+    "score": 60,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786680799",
+    "captured_at": "2026-08-14T09:43:19.882898",
+    "user_id": "U_SLACK_USER",
+    "raw_text": "@b2b-lead-agent Client quote request",
+    "score": 50,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786680799",
+    "captured_at": "2026-08-14T09:43:19.883463",
+    "user_id": "U_TEST1",
+    "raw_text": "We need enterprise AI automation with $50k budget ASAP",
+    "score": 100,
+    "status": "QUALIFIED",
+    "budget_estimate": "High / Enterprise",
+    "timeline": "Immediate / High Priority"
+  },
+  {
+    "lead_id": "LEAD-1786680799",
+    "captured_at": "2026-08-14T09:43:19.883784",
+    "user_id": "U_TEST2",
+    "raw_text": "Looking for custom dev quote",
+    "score": 60,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786681390",
+    "captured_at": "2026-08-14T09:53:10.168063",
+    "user_id": "U_SLACK_USER",
+    "raw_text": "@b2b-lead-agent Client quote request",
+    "score": 50,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786681390",
+    "captured_at": "2026-08-14T09:53:10.168893",
+    "user_id": "U_TEST1",
+    "raw_text": "We need enterprise AI automation with $50k budget ASAP",
+    "score": 100,
+    "status": "QUALIFIED",
+    "budget_estimate": "High / Enterprise",
+    "timeline": "Immediate / High Priority"
+  },
+  {
+    "lead_id": "LEAD-1786681390",
+    "captured_at": "2026-08-14T09:53:10.169411",
+    "user_id": "U_TEST2",
+    "raw_text": "Looking for custom dev quote",
+    "score": 60,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786684810",
+    "captured_at": "2026-08-14T10:50:10.788623",
+    "user_id": "U_SLACK_USER",
+    "raw_text": "@b2b-lead-agent Client quote request",
+    "score": 50,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786684810",
+    "captured_at": "2026-08-14T10:50:10.789353",
+    "user_id": "U_TEST1",
+    "raw_text": "We need enterprise AI automation with $50k budget ASAP",
+    "score": 100,
+    "status": "QUALIFIED",
+    "budget_estimate": "High / Enterprise",
+    "timeline": "Immediate / High Priority"
+  },
+  {
+    "lead_id": "LEAD-1786684810",
+    "captured_at": "2026-08-14T10:50:10.789860",
+    "user_id": "U_TEST2",
+    "raw_text": "Looking for custom dev quote",
+    "score": 60,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786684919",
+    "captured_at": "2026-08-14T10:51:59.441352",
+    "user_id": "U_SLACK_USER",
+    "raw_text": "@b2b-lead-agent Client quote request",
+    "score": 50,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786684919",
+    "captured_at": "2026-08-14T10:51:59.442003",
+    "user_id": "U_TEST1",
+    "raw_text": "We need enterprise AI automation with $50k budget ASAP",
+    "score": 100,
+    "status": "QUALIFIED",
+    "budget_estimate": "High / Enterprise",
+    "timeline": "Immediate / High Priority"
+  },
+  {
+    "lead_id": "LEAD-1786684919",
+    "captured_at": "2026-08-14T10:51:59.442512",
+    "user_id": "U_TEST2",
+    "raw_text": "Looking for custom dev quote",
+    "score": 60,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786686928",
+    "captured_at": "2026-08-14T11:25:28.510087",
+    "user_id": "U_SLACK_USER",
+    "raw_text": "@b2b-lead-agent Client quote request",
+    "score": 50,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786686928",
+    "captured_at": "2026-08-14T11:25:28.510656",
+    "user_id": "U_TEST1",
+    "raw_text": "We need enterprise AI automation with $50k budget ASAP",
+    "score": 100,
+    "status": "QUALIFIED",
+    "budget_estimate": "High / Enterprise",
+    "timeline": "Immediate / High Priority"
+  },
+  {
+    "lead_id": "LEAD-1786686928",
+    "captured_at": "2026-08-14T11:25:28.511056",
+    "user_id": "U_TEST2",
+    "raw_text": "Looking for custom dev quote",
+    "score": 60,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786686964",
+    "captured_at": "2026-08-14T11:26:04.060863",
+    "user_id": "U_SLACK_USER",
+    "raw_text": "@b2b-lead-agent Client quote request",
+    "score": 50,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786686964",
+    "captured_at": "2026-08-14T11:26:04.061505",
+    "user_id": "U_TEST1",
+    "raw_text": "We need enterprise AI automation with $50k budget ASAP",
+    "score": 100,
+    "status": "QUALIFIED",
+    "budget_estimate": "High / Enterprise",
+    "timeline": "Immediate / High Priority"
+  },
+  {
+    "lead_id": "LEAD-1786686964",
+    "captured_at": "2026-08-14T11:26:04.061871",
+    "user_id": "U_TEST2",
+    "raw_text": "Looking for custom dev quote",
+    "score": 60,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786688846",
+    "captured_at": "2026-08-14T11:57:26.087334",
+    "user_id": "U_SLACK_USER",
+    "raw_text": "@b2b-lead-agent Client quote request",
+    "score": 50,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786688846",
+    "captured_at": "2026-08-14T11:57:26.087952",
+    "user_id": "U_TEST1",
+    "raw_text": "We need enterprise AI automation with $50k budget ASAP",
+    "score": 100,
+    "status": "QUALIFIED",
+    "budget_estimate": "High / Enterprise",
+    "timeline": "Immediate / High Priority"
+  },
+  {
+    "lead_id": "LEAD-1786688846",
+    "captured_at": "2026-08-14T11:57:26.088325",
+    "user_id": "U_TEST2",
+    "raw_text": "Looking for custom dev quote",
+    "score": 60,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786689247",
+    "captured_at": "2026-08-14T12:04:07.720985",
+    "user_id": "U_SLACK_USER",
+    "raw_text": "@b2b-lead-agent Client quote request",
+    "score": 50,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786689247",
+    "captured_at": "2026-08-14T12:04:07.721707",
+    "user_id": "U_TEST1",
+    "raw_text": "We need enterprise AI automation with $50k budget ASAP",
+    "score": 100,
+    "status": "QUALIFIED",
+    "budget_estimate": "High / Enterprise",
+    "timeline": "Immediate / High Priority"
+  },
+  {
+    "lead_id": "LEAD-1786689247",
+    "captured_at": "2026-08-14T12:04:07.722108",
+    "user_id": "U_TEST2",
+    "raw_text": "Looking for custom dev quote",
+    "score": 60,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786689816",
+    "captured_at": "2026-08-14T12:13:36.213354",
+    "user_id": "U_SLACK_USER",
+    "raw_text": "@b2b-lead-agent Client quote request",
+    "score": 50,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786689816",
+    "captured_at": "2026-08-14T12:13:36.214042",
+    "user_id": "U_TEST1",
+    "raw_text": "We need enterprise AI automation with $50k budget ASAP",
+    "score": 100,
+    "status": "QUALIFIED",
+    "budget_estimate": "High / Enterprise",
+    "timeline": "Immediate / High Priority"
+  },
+  {
+    "lead_id": "LEAD-1786689816",
+    "captured_at": "2026-08-14T12:13:36.214456",
+    "user_id": "U_TEST2",
+    "raw_text": "Looking for custom dev quote",
+    "score": 60,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786689832",
+    "captured_at": "2026-08-14T12:13:52.361245",
+    "user_id": "U_SLACK_USER",
+    "raw_text": "@b2b-lead-agent Client quote request",
+    "score": 50,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786689832",
+    "captured_at": "2026-08-14T12:13:52.362350",
+    "user_id": "U_TEST1",
+    "raw_text": "We need enterprise AI automation with $50k budget ASAP",
+    "score": 100,
+    "status": "QUALIFIED",
+    "budget_estimate": "High / Enterprise",
+    "timeline": "Immediate / High Priority"
+  },
+  {
+    "lead_id": "LEAD-1786689832",
+    "captured_at": "2026-08-14T12:13:52.362772",
+    "user_id": "U_TEST2",
+    "raw_text": "Looking for custom dev quote",
+    "score": 60,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786689851",
+    "captured_at": "2026-08-14T12:14:11.035410",
+    "user_id": "U_SLACK_USER",
+    "raw_text": "@b2b-lead-agent Client quote request",
+    "score": 50,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786689851",
+    "captured_at": "2026-08-14T12:14:11.036065",
+    "user_id": "U_TEST1",
+    "raw_text": "We need enterprise AI automation with $50k budget ASAP",
+    "score": 100,
+    "status": "QUALIFIED",
+    "budget_estimate": "High / Enterprise",
+    "timeline": "Immediate / High Priority"
+  },
+  {
+    "lead_id": "LEAD-1786689851",
+    "captured_at": "2026-08-14T12:14:11.036494",
+    "user_id": "U_TEST2",
+    "raw_text": "Looking for custom dev quote",
+    "score": 60,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786690163",
+    "captured_at": "2026-08-14T12:19:23.322134",
+    "user_id": "U_SLACK_USER",
+    "raw_text": "@b2b-lead-agent Client quote request",
+    "score": 50,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786690163",
+    "captured_at": "2026-08-14T12:19:23.323166",
+    "user_id": "U_TEST1",
+    "raw_text": "We need enterprise AI automation with $50k budget ASAP",
+    "score": 100,
+    "status": "QUALIFIED",
+    "budget_estimate": "High / Enterprise",
+    "timeline": "Immediate / High Priority"
+  },
+  {
+    "lead_id": "LEAD-1786690163",
+    "captured_at": "2026-08-14T12:19:23.323985",
+    "user_id": "U_TEST2",
+    "raw_text": "Looking for custom dev quote",
+    "score": 60,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786691543",
+    "captured_at": "2026-08-14T12:42:23.001193",
+    "user_id": "U_SLACK_USER",
+    "raw_text": "@b2b-lead-agent Client quote request",
+    "score": 50,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786691543",
+    "captured_at": "2026-08-14T12:42:23.001979",
+    "user_id": "U_TEST1",
+    "raw_text": "We need enterprise AI automation with $50k budget ASAP",
+    "score": 100,
+    "status": "QUALIFIED",
+    "budget_estimate": "High / Enterprise",
+    "timeline": "Immediate / High Priority"
+  },
+  {
+    "lead_id": "LEAD-1786691543",
+    "captured_at": "2026-08-14T12:42:23.002434",
+    "user_id": "U_TEST2",
+    "raw_text": "Looking for custom dev quote",
+    "score": 60,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786758271",
+    "captured_at": "2026-08-15T07:14:31.538675",
+    "user_id": "U_SLACK_USER",
+    "raw_text": "@b2b-lead-agent Client quote request",
+    "score": 50,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786758271",
+    "captured_at": "2026-08-15T07:14:31.539410",
+    "user_id": "U_TEST1",
+    "raw_text": "We need enterprise AI automation with $50k budget ASAP",
+    "score": 100,
+    "status": "QUALIFIED",
+    "budget_estimate": "High / Enterprise",
+    "timeline": "Immediate / High Priority"
+  },
+  {
+    "lead_id": "LEAD-1786758271",
+    "captured_at": "2026-08-15T07:14:31.539890",
+    "user_id": "U_TEST2",
+    "raw_text": "Looking for custom dev quote",
+    "score": 60,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786758873",
+    "captured_at": "2026-08-15T07:24:33.230952",
+    "user_id": "U_SLACK_USER",
+    "raw_text": "@b2b-lead-agent Client quote request",
+    "score": 50,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786758873",
+    "captured_at": "2026-08-15T07:24:33.231794",
+    "user_id": "U_TEST1",
+    "raw_text": "We need enterprise AI automation with $50k budget ASAP",
+    "score": 100,
+    "status": "QUALIFIED",
+    "budget_estimate": "High / Enterprise",
+    "timeline": "Immediate / High Priority"
+  },
+  {
+    "lead_id": "LEAD-1786758873",
+    "captured_at": "2026-08-15T07:24:33.232535",
+    "user_id": "U_TEST2",
+    "raw_text": "Looking for custom dev quote",
+    "score": 60,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786759152",
+    "captured_at": "2026-08-15T07:29:12.745150",
+    "user_id": "U_SLACK_USER",
+    "raw_text": "@b2b-lead-agent Client quote request",
+    "score": 50,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  },
+  {
+    "lead_id": "LEAD-1786759152",
+    "captured_at": "2026-08-15T07:29:12.745977",
+    "user_id": "U_TEST1",
+    "raw_text": "We need enterprise AI automation with $50k budget ASAP",
+    "score": 100,
+    "status": "QUALIFIED",
+    "budget_estimate": "High / Enterprise",
+    "timeline": "Immediate / High Priority"
+  },
+  {
+    "lead_id": "LEAD-1786759152",
+    "captured_at": "2026-08-15T07:29:12.746676",
+    "user_id": "U_TEST2",
+    "raw_text": "Looking for custom dev quote",
+    "score": 60,
+    "status": "NEEDS_SCOPING",
+    "budget_estimate": "unspecified",
+    "timeline": "Flexible"
+  }
+]

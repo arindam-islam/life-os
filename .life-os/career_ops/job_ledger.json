@@ -1,0 +1,195 @@
+[
+  {
+    "job_id": "JOB-FULFIL-001",
+    "portal": "Fulfil Careers",
+    "company": "Fulfil.IO Inc.",
+    "title": "Product Consultant (Associate) - Supply Chain",
+    "domain": "E-Commerce ERP & Supply Chain SaaS",
+    "location": "Bangalore (ONSITE - 5:30 PM to 2:30 AM IST)",
+    "offered_ctc_lpa": "16.0 - 20.0 LPA",
+    "fitment_score": "95%",
+    "url": "https://jobs.fulfil.io/o/product-consultant-associate-supply-chain-aug-2026-start",
+    "recruiter_details": {
+      "name": "Fulfil Hiring Team / Recruiter",
+      "role": "Talent Acquisition at Fulfil.IO Inc.",
+      "linkedin": "https://www.linkedin.com/company/fulfil-io"
+    },
+    "required_skills": [
+      "Product Operations",
+      "Root Cause Analysis (RCA)",
+      "Python Scripting",
+      "AI & Prompt Engineering",
+      "SLA Management",
+      "ERP & Supply Chain"
+    ],
+    "full_job_description": "Bridge between engineering and e-commerce merchants on Fulfil AI integrated ERP. Perform RCA on operational issues, interpret Python code, design workflow improvements, and own issues end-to-end.",
+    "justification": [
+      "Base Salary \u20b916.0 - 20.0 LPA perfectly hits target 18.0 LPA CTC",
+      "Direct match for 7+ years Product & Tech Ops experience (RCA, ART 8h -> 3h, Adyen migration)",
+      "Requires AI & Prompt Engineering + Python script interpretation",
+      "Bangalore location match (5:30 PM - 2:30 AM IST shift)"
+    ],
+    "resume_pdf_path": ".life-os/career_ops/pdf_assets/Arindam_Islam_Resume_Fulfil.pdf",
+    "cover_letter_pdf_path": ".life-os/career_ops/pdf_assets/Arindam_Islam_Cover_Letter_Fulfil.pdf",
+    "human_approval": {
+      "status": "PENDING_OWNER_APPROVAL",
+      "allowed_actions": [
+        "GO",
+        "APPROVE APPLY JOB-FULFIL-001",
+        "REJECT JOB-FULFIL-001"
+      ]
+    },
+    "status": "APPLIED",
+    "applied_date": "2026-08-13T05:59:36.615031+05:30"
+  },
+  {
+    "job_id": "JOB-QCOMM-001",
+    "company": "Zepto",
+    "title": "Central Operations Lead (Dark Store & Tech Ops)",
+    "domain": "Quick Commerce",
+    "portal": "Foundit / LinkedIn",
+    "url": "https://www.foundit.in/search/dec-and-ld-operations-jobs-in-bengaluru-bangalore-2",
+    "offered_ctc_lpa": 22.0,
+    "location": "Bangalore, India",
+    "fitment_score": 95,
+    "recruiter_details": {
+      "name": "Zepto Central Talent Acquisition",
+      "role": "Lead Recruiter - Operations",
+      "linkedin": "https://www.linkedin.com/company/zepto"
+    },
+    "full_job_description": "Owning end-to-end dark store operations, fulfillment SLA optimization (<10 min TAT), rider ticketing workflows, Metabase SQL metric tracking, and tech ops process improvements.",
+    "required_skills": [
+      "Dark Store Ops",
+      "SLA Management",
+      "Metabase SQL",
+      "Ticketing Workflows",
+      "Incidents RCA"
+    ],
+    "justification": [
+      "Direct match for Quick Commerce domain preference",
+      "Proven track record reducing incident resolution time (ART 8h -> 3h) and building internal ticketing at Bounce & Get My Parking",
+      "Offered CTC 22 LPA well above 16.5 LPA floor"
+    ],
+    "status": "QUEUED"
+  },
+  {
+    "job_id": "JOB-MOB-002",
+    "company": "Yulu",
+    "title": "Operations Manager (Fleet Tech Ops & Central Control)",
+    "domain": "Micro-Mobility & EV Fleet",
+    "portal": "Instahyre / LinkedIn",
+    "url": "https://www.instahyre.com/job-114188-operations-manager-at-yulu-2-bangalore/",
+    "offered_ctc_lpa": 19.5,
+    "location": "Bangalore, India",
+    "fitment_score": 94,
+    "recruiter_details": {
+      "name": "Yulu Hiring Team",
+      "role": "Talent Acquisition Lead",
+      "linkedin": "https://www.linkedin.com/company/yulu"
+    },
+    "full_job_description": "Lead central control room, 24x7 fleet uptime management, IoT vehicle diagnostics, partner support, and operational process optimization across Bangalore clusters.",
+    "required_skills": [
+      "EV Fleet Operations",
+      "IoT Diagnostics",
+      "Central Control Ops",
+      "In-app Ticketing",
+      "Hardware RCA"
+    ],
+    "justification": [
+      "Direct match for EV micro-mobility experience (5+ years across Bounce EV & BaaS)",
+      "Hardware reliability (95%+ uptime) and MQTT alerting experience at Get My Parking",
+      "Offered CTC ~19.5 LPA meets floor requirement"
+    ],
+    "status": "QUEUED"
+  },
+  {
+    "job_id": "JOB-FIN-003",
+    "company": "Razorpay",
+    "title": "Manager - Merchant Technical Operations & Banking Solutions",
+    "domain": "Fintech / Payment Gateway",
+    "portal": "GetMeReferred / Unstop",
+    "url": "https://getmereferred.com/job-listing/manager-banking-solutions-razorpay-bengaluru-5-to-10-years-experience-730d769c-5d72-4d00-ab00-e79160e3c59c",
+    "offered_ctc_lpa": 24.0,
+    "location": "Bangalore, India",
+    "fitment_score": 93,
+    "recruiter_details": {
+      "name": "Razorpay Talent Acquisition",
+      "role": "Fintech Hiring Partner",
+      "linkedin": "https://www.linkedin.com/company/razorpay"
+    },
+    "full_job_description": "Managing merchant technical onboarding, API integration troubleshooting, zero-downtime payment operations, root cause analysis for transaction delays, and banking partner technical ops.",
+    "required_skills": [
+      "Payment Gateway Tech Ops",
+      "API Integrations",
+      "Merchant Onboarding",
+      "Root Cause Analysis",
+      "SQL"
+    ],
+    "justification": [
+      "5000+ customer payment profile zero-downtime migration to Adyen at Get My Parking",
+      "Strong alignment with CTC floor requirement (Offered ~24 LPA)",
+      "Direct match for Fintech / Payments domain preference"
+    ],
+    "status": "QUEUED"
+  },
+  {
+    "job_id": "JOB-LOG-004",
+    "company": "Blinkit / Swiggy Instamart",
+    "title": "City Operations Professional / Dark Store Tech Operations Lead",
+    "domain": "Quick Commerce & Logistics",
+    "portal": "IIMJobs / LinkedIn",
+    "url": "https://www.iimjobs.com/j/blinkit-city-operations-professional-express-stores-1721218",
+    "offered_ctc_lpa": 21.0,
+    "location": "Bangalore, India",
+    "fitment_score": 92,
+    "recruiter_details": {
+      "name": "Express Stores Hiring Team",
+      "role": "Senior Operations Recruiter",
+      "linkedin": "https://www.linkedin.com/company/blinkit"
+    },
+    "full_job_description": "Managing express store tech ops, supply sufficiency, rider dispatch TAT, partner support ticketing, and operational efficiency across Bangalore hubs.",
+    "required_skills": [
+      "Quick Commerce Tech Ops",
+      "SLA RCA",
+      "Supply Optimization",
+      "Internal Dashboards",
+      "Team Leadership"
+    ],
+    "justification": [
+      "Direct experience leading teams of 20+ operations/support engineers",
+      "Retool/Appsmith internal dashboard creation and automated workflow experience",
+      "Offered CTC ~21 LPA meets floor requirement"
+    ],
+    "status": "QUEUED"
+  },
+  {
+    "job_id": "JOB-SAAS-005",
+    "company": "Intugine Technologies",
+    "title": "Product Operations Lead / Customer Technical Ops Manager",
+    "domain": "Supply Chain & Logistics SaaS",
+    "portal": "Wellfound / LinkedIn",
+    "url": "https://wellfound.com/company/intugine-technologies-1",
+    "offered_ctc_lpa": 19.0,
+    "location": "Bangalore, India",
+    "fitment_score": 90,
+    "recruiter_details": {
+      "name": "Intugine Talent Team",
+      "role": "Head of Talent Acquisition",
+      "linkedin": "https://www.linkedin.com/company/intugine-technologies"
+    },
+    "full_job_description": "Leading product operations for multimodal supply chain tracking, IoT device telemetry, Retool/Metabase admin dashboards, SLA management, and L2/L3 issue resolution.",
+    "required_skills": [
+      "Logistics SaaS",
+      "IoT Telemetry",
+      "Metabase SQL",
+      "Retool",
+      "Incident Response"
+    ],
+    "justification": [
+      "Combines Get My Parking's enterprise SaaS / MQTT hardware telemetry with Bounce's Retool/Appsmith dashboard building",
+      "Direct fit for Logistics & Supply Chain SaaS domain preference",
+      "Offered CTC ~19.0 LPA meets floor requirement"
+    ],
+    "status": "QUEUED"
+  }
+]

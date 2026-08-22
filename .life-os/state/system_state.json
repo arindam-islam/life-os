@@ -1,7 +1,7 @@
 {
   "system": "Life OS",
   "status": "OPERATIONAL",
-  "last_audit": "2026-08-14T06:40:00+05:30",
+  "last_audit": "2026-08-14T07:18:00+05:30",
   "verification_method": "EMPIRICAL_SSH_RUNTIME_CHECK",
   "active_components": {
     "n8n": {
@@ -11,13 +11,6 @@
       "version": "2.31.6",
       "container_id": "fa27ae3131bc"
     },
-    "omniroute": {
-      "status": "DEPLOYED",
-      "verification": "VERIFIED_LIVE",
-      "health": "HEALTHY",
-      "version": "latest",
-      "container_id": "afe64aa1a646"
-    },
     "youtube-enricher": {
       "status": "DEPLOYED",
       "verification": "VERIFIED_LIVE",
@@ -26,37 +19,39 @@
       "container_id": "5a6e28594a4d"
     },
     "slack-resource-inbox": {
+      "status": "PREPARED",
+      "verification": "LOCAL_VALIDATION",
+      "health": "READY",
+      "workflow_id": "slack_resource_inbox_v1",
+      "deployment_state": "PAUSED_PENDING_APPROVAL"
+    },
+    "status-bridge": {
       "status": "DEPLOYED",
       "verification": "VERIFIED_LIVE",
       "health": "HEALTHY",
-      "workflow_id": "slack_resource_inbox_v1",
-      "deployment_state": "ACTIVE"
-    },
-    "status-bridge": {
-      "status": "IMPLEMENTED",
-      "verification": "LOCAL_ONLY",
-      "health": "TESTED_LOCAL",
-      "deployment_state": "PREPARED"
+      "container_name": "life-os-status-bridge",
+      "local_url": "http://127.0.0.1:8788/healthz",
+      "auth_boundary": "BEARER_TOKEN_HMAC_COMPARE"
     },
     "status-view": {
-      "status": "IMPLEMENTED",
-      "verification": "LIVE_LOCAL",
+      "status": "DEPLOYED",
+      "verification": "VERIFIED_LIVE",
       "health": "HEALTHY",
-      "local_url": "http://localhost:3000",
-      "persistent_plan": "ORACLE_CONTAINER_CADDY_AUTH"
+      "container_name": "life-os-status-view",
+      "local_url": "http://127.0.0.1:3000"
     }
   },
   "telemetry_24h": {
-    "total_executions": 42,
-    "success_executions": 36,
-    "error_executions": 6
+    "total_executions": 78,
+    "success_executions": 56,
+    "error_executions": 22
   },
   "tracks": {
     "Track A (Ingestion)": "VERIFIED_LIVE",
     "Track B (Slack Capture)": "VERIFIED_LIVE",
-    "Track C (Cockpit Dashboard)": "LIVE_LOCAL_PERSISTENCE_READY",
+    "Track C (Cockpit Dashboard)": "VERIFIED_LIVE",
     "Track D (Enrichment)": "VERIFIED_LIVE",
-    "Track E (Agent Architecture)": "BOOTSTRAPPED",
+    "Track E (Agent Architecture)": "VERIFIED_LIVE",
     "Track F (Knowledge Base)": "ACTIVE",
     "Track G (Security & Audit)": "ACTIVE",
     "Track H (Career & Wealth)": "PAUSED"

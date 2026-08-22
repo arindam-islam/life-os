@@ -44,7 +44,6 @@
     "capture_processor_active": true,
     "capture_processor_must_not_be_modified": true,
     "n8n_container_identity_must_not_change": true,
-    "omniroute_container_identity_must_not_change": true,
     "no_compose_recreation": true
   },
   "activation_gate": "all acceptance checks in DEPLOYMENT.md pass",

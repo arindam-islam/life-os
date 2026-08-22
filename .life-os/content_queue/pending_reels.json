@@ -1,0 +1,3943 @@
+[
+  {
+    "reel_id": "REEL-RES-1786675261",
+    "resource_id": "RES-1786675261",
+    "topic": "Sleep & Nutrition Optimization",
+    "domain": "HEALTH_WELLNESS",
+    "aspect": "9:16",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/knowledge/domain_distribution/HEALTH_WELLNESS/RES-1786675261.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Sleep better tonight!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T08:11:01.458554",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-RES-1786675261",
+    "resource_id": "RES-1786675261",
+    "topic": "Simple direct note on daily mindfulness ...",
+    "domain": "HEALTH_WELLNESS",
+    "aspect": "9:16",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/knowledge/domain_distribution/HEALTH_WELLNESS/RES-1786675261.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T08:11:01.459080",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-RES-1786675272",
+    "resource_id": "RES-1786675272",
+    "topic": "Sleep & Nutrition Optimization",
+    "domain": "HEALTH_WELLNESS",
+    "aspect": "9:16",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/knowledge/domain_distribution/HEALTH_WELLNESS/RES-1786675272.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Sleep better tonight!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T08:11:12.454925",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-RES-1786675272",
+    "resource_id": "RES-1786675272",
+    "topic": "Simple direct note on daily mindfulness ...",
+    "domain": "HEALTH_WELLNESS",
+    "aspect": "9:16",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/knowledge/domain_distribution/HEALTH_WELLNESS/RES-1786675272.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T08:11:12.455960",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-RES-1786675300",
+    "resource_id": "RES-1786675300",
+    "topic": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/RES-1786675300.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T08:11:40.695007",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-RES-1786675300",
+    "resource_id": "RES-1786675300",
+    "topic": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/RES-1786675300.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T08:11:40.701764",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-RES-1786675306",
+    "resource_id": "RES-1786675306",
+    "topic": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/RES-1786675306.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T08:11:46.878826",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-RES-1786675306",
+    "resource_id": "RES-1786675306",
+    "topic": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/RES-1786675306.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T08:11:46.879931",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-RES-1786675709",
+    "resource_id": "RES-1786675709",
+    "topic": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/RES-1786675709.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T08:18:29.443120",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-RES-1786675709",
+    "resource_id": "RES-1786675709",
+    "topic": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/RES-1786675709.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T08:18:29.444162",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-RES-1786676523",
+    "resource_id": "RES-1786676523",
+    "topic": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/RES-1786676523.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T08:32:03.801849",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-RES-1786676523",
+    "resource_id": "RES-1786676523",
+    "topic": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/RES-1786676523.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T08:32:03.803400",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-RES-1786676990",
+    "resource_id": "RES-1786676990",
+    "topic": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/RES-1786676990.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T08:39:50.990271",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-RES-1786676990",
+    "resource_id": "RES-1786676990",
+    "topic": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/RES-1786676990.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T08:39:50.993461",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-RES-1786677317",
+    "resource_id": "RES-1786677317",
+    "topic": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/RES-1786677317.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T08:45:17.880053",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-RES-1786677317",
+    "resource_id": "RES-1786677317",
+    "topic": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/RES-1786677317.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T08:45:17.881371",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-RES-1786677644",
+    "resource_id": "RES-1786677644",
+    "topic": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/RES-1786677644.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T08:50:44.297491",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-RES-1786677644",
+    "resource_id": "RES-1786677644",
+    "topic": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/RES-1786677644.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T08:50:44.298865",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-RES-1786678045",
+    "resource_id": "RES-1786678045",
+    "topic": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/RES-1786678045.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T08:57:25.695284",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-RES-1786678045",
+    "resource_id": "RES-1786678045",
+    "topic": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/RES-1786678045.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T08:57:25.696896",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-RES-1786678582",
+    "resource_id": "RES-1786678582",
+    "topic": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/RES-1786678582.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T09:06:22.054588",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-RES-1786678582",
+    "resource_id": "RES-1786678582",
+    "topic": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/RES-1786678582.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T09:06:22.056138",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-RES-1786678784",
+    "resource_id": "RES-1786678784",
+    "topic": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/RES-1786678784.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T09:09:44.682176",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-RES-1786678784",
+    "resource_id": "RES-1786678784",
+    "topic": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/RES-1786678784.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T09:09:44.683981",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-RES-1786679891",
+    "resource_id": "RES-1786679891",
+    "topic": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/RES-1786679891.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T09:28:11.630623",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-RES-1786679891",
+    "resource_id": "RES-1786679891",
+    "topic": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/RES-1786679891.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T09:28:11.632908",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-RES-1786680208",
+    "resource_id": "RES-1786680208",
+    "topic": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/RES-1786680208.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T09:33:28.154879",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-RES-1786680208",
+    "resource_id": "RES-1786680208",
+    "topic": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/RES-1786680208.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T09:33:28.157567",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-RES-1786680799",
+    "resource_id": "RES-1786680799",
+    "topic": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/RES-1786680799.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T09:43:19.879287",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-RES-1786680799",
+    "resource_id": "RES-1786680799",
+    "topic": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/RES-1786680799.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T09:43:19.881766",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-RES-1786681390",
+    "resource_id": "RES-1786681390",
+    "topic": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/RES-1786681390.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T09:53:10.164383",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-RES-1786681390",
+    "resource_id": "RES-1786681390",
+    "topic": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/RES-1786681390.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T09:53:10.167056",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-sleep-nutrition-optimization-protocol",
+    "title": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/sleep-nutrition-optimization-protocol.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T10:50:10.784066",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-simple-direct-note-on-daily-mindfulness",
+    "title": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/simple-direct-note-on-daily-mindfulness.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T10:50:10.787565",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-sleep-nutrition-optimization-protocol",
+    "title": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/sleep-nutrition-optimization-protocol-4919.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T10:51:59.437642",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-simple-direct-note-on-daily-mindfulness",
+    "title": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/simple-direct-note-on-daily-mindfulness-4919.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T10:51:59.440204",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-sleep-nutrition-optimization-protocol",
+    "title": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/sleep-nutrition-optimization-protocol-6928.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T11:25:28.506406",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-simple-direct-note-on-daily-mindfulness",
+    "title": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/simple-direct-note-on-daily-mindfulness-6928.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T11:25:28.509054",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-sleep-nutrition-optimization-protocol",
+    "title": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/sleep-nutrition-optimization-protocol-6964.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T11:26:04.057041",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-simple-direct-note-on-daily-mindfulness",
+    "title": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/simple-direct-note-on-daily-mindfulness-6964.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T11:26:04.059681",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-sleep-nutrition-optimization-protocol",
+    "title": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/sleep-nutrition-optimization-protocol-8846.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T11:57:26.083011",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-simple-direct-note-on-daily-mindfulness",
+    "title": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/simple-direct-note-on-daily-mindfulness-8846.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T11:57:26.086055",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-sleep-nutrition-optimization-protocol",
+    "title": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/sleep-nutrition-optimization-protocol-9247.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T12:04:07.716704",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-simple-direct-note-on-daily-mindfulness",
+    "title": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/simple-direct-note-on-daily-mindfulness-9247.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T12:04:07.719882",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-sleep-nutrition-optimization-protocol",
+    "title": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/sleep-nutrition-optimization-protocol-9782.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T12:13:02.093285",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-simple-direct-note-on-daily-mindfulness",
+    "title": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/simple-direct-note-on-daily-mindfulness-9782.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T12:13:02.096725",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-sleep-nutrition-optimization-protocol",
+    "title": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/sleep-nutrition-optimization-protocol-9798.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T12:13:18.029628",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-simple-direct-note-on-daily-mindfulness",
+    "title": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/simple-direct-note-on-daily-mindfulness-9798.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T12:13:18.032847",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-sleep-nutrition-optimization-protocol",
+    "title": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/sleep-nutrition-optimization-protocol-9816.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T12:13:36.208665",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-simple-direct-note-on-daily-mindfulness",
+    "title": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/simple-direct-note-on-daily-mindfulness-9816.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T12:13:36.211792",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-sleep-nutrition-optimization-protocol",
+    "title": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/sleep-nutrition-optimization-protocol-9832.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T12:13:52.356766",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-simple-direct-note-on-daily-mindfulness",
+    "title": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/simple-direct-note-on-daily-mindfulness-9832.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T12:13:52.360006",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-sleep-nutrition-optimization-protocol",
+    "title": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/sleep-nutrition-optimization-protocol-9851.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T12:14:11.030849",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-simple-direct-note-on-daily-mindfulness",
+    "title": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/simple-direct-note-on-daily-mindfulness-9851.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T12:14:11.034110",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-sleep-nutrition-optimization-protocol",
+    "title": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/sleep-nutrition-optimization-protocol-163.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T12:19:23.317314",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-simple-direct-note-on-daily-mindfulness",
+    "title": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/simple-direct-note-on-daily-mindfulness-163.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T12:19:23.320792",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-sleep-nutrition-optimization-protocol",
+    "title": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/sleep-nutrition-optimization-protocol-1542.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T12:42:22.995525",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-simple-direct-note-on-daily-mindfulness",
+    "title": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/simple-direct-note-on-daily-mindfulness-1542.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-14T12:42:22.999485",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-sleep-nutrition-optimization-protocol",
+    "title": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/sleep-nutrition-optimization-protocol-8271.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T07:14:31.533344",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-simple-direct-note-on-daily-mindfulness",
+    "title": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/simple-direct-note-on-daily-mindfulness-8271.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T07:14:31.537230",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-sleep-nutrition-optimization-protocol",
+    "title": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/sleep-nutrition-optimization-protocol-8873.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T07:24:33.225868",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-simple-direct-note-on-daily-mindfulness",
+    "title": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/simple-direct-note-on-daily-mindfulness-8873.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T07:24:33.229451",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-sleep-nutrition-optimization-protocol",
+    "title": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/sleep-nutrition-optimization-protocol-9152.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T07:29:12.739995",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-simple-direct-note-on-daily-mindfulness",
+    "title": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/simple-direct-note-on-daily-mindfulness-9152.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T07:29:12.743716",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-sleep-nutrition-optimization-protocol",
+    "title": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/sleep-nutrition-optimization-protocol-9381.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T07:33:01.592743",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-simple-direct-note-on-daily-mindfulness",
+    "title": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/simple-direct-note-on-daily-mindfulness-9381.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T07:33:01.596979",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-sleep-nutrition-optimization-protocol",
+    "title": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/sleep-nutrition-optimization-protocol-424.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T07:50:24.207476",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-simple-direct-note-on-daily-mindfulness",
+    "title": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/simple-direct-note-on-daily-mindfulness-424.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T07:50:24.211920",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-sleep-nutrition-optimization-protocol",
+    "title": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/sleep-nutrition-optimization-protocol-668.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T07:54:28.063328",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-simple-direct-note-on-daily-mindfulness",
+    "title": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/simple-direct-note-on-daily-mindfulness-668.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T07:54:28.067589",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-sleep-nutrition-optimization-protocol",
+    "title": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/sleep-nutrition-optimization-protocol-791.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T07:56:31.463452",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-simple-direct-note-on-daily-mindfulness",
+    "title": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/simple-direct-note-on-daily-mindfulness-791.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T07:56:31.468830",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-sleep-nutrition-optimization-protocol",
+    "title": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/sleep-nutrition-optimization-protocol-952.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T07:59:12.806167",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-simple-direct-note-on-daily-mindfulness",
+    "title": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/simple-direct-note-on-daily-mindfulness-952.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T07:59:12.810732",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-sleep-nutrition-optimization-protocol",
+    "title": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/sleep-nutrition-optimization-protocol-1475.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T08:07:55.419020",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-simple-direct-note-on-daily-mindfulness",
+    "title": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/simple-direct-note-on-daily-mindfulness-1475.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T08:07:55.423785",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-sleep-nutrition-optimization-protocol",
+    "title": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/sleep-nutrition-optimization-protocol-1598.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T08:09:58.749887",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-simple-direct-note-on-daily-mindfulness",
+    "title": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/simple-direct-note-on-daily-mindfulness-1598.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T08:09:58.761433",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-sleep-nutrition-optimization-protocol",
+    "title": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/sleep-nutrition-optimization-protocol-1748.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T08:12:28.533864",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-simple-direct-note-on-daily-mindfulness",
+    "title": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/simple-direct-note-on-daily-mindfulness-1748.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T08:12:28.538573",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-sleep-nutrition-optimization-protocol",
+    "title": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/sleep-nutrition-optimization-protocol-1814.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T08:13:34.543198",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-simple-direct-note-on-daily-mindfulness",
+    "title": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/simple-direct-note-on-daily-mindfulness-1814.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T08:13:34.548215",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-sleep-nutrition-optimization-protocol",
+    "title": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/sleep-nutrition-optimization-protocol-2156.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T08:19:16.519733",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-simple-direct-note-on-daily-mindfulness",
+    "title": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/simple-direct-note-on-daily-mindfulness-2156.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T08:19:16.525046",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-sleep-nutrition-optimization-protocol",
+    "title": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/sleep-nutrition-optimization-protocol-2395.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T08:23:15.441339",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-simple-direct-note-on-daily-mindfulness",
+    "title": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/simple-direct-note-on-daily-mindfulness-2395.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T08:23:15.446969",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-sleep-nutrition-optimization-protocol",
+    "title": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/sleep-nutrition-optimization-protocol-2886.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T08:31:26.680234",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-simple-direct-note-on-daily-mindfulness",
+    "title": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/simple-direct-note-on-daily-mindfulness-2886.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T08:31:26.685864",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-sleep-nutrition-optimization-protocol",
+    "title": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/sleep-nutrition-optimization-protocol-3052.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T08:34:12.332851",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-simple-direct-note-on-daily-mindfulness",
+    "title": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/simple-direct-note-on-daily-mindfulness-3052.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T08:34:12.338001",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-sleep-nutrition-optimization-protocol",
+    "title": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/sleep-nutrition-optimization-protocol-3189.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T08:36:29.097839",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-simple-direct-note-on-daily-mindfulness",
+    "title": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/simple-direct-note-on-daily-mindfulness-3189.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T08:36:29.103236",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-sleep-nutrition-optimization-protocol",
+    "title": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/sleep-nutrition-optimization-protocol-3285.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T08:38:05.994192",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-simple-direct-note-on-daily-mindfulness",
+    "title": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/simple-direct-note-on-daily-mindfulness-3285.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T08:38:05.999358",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-sleep-nutrition-optimization-protocol",
+    "title": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/sleep-nutrition-optimization-protocol-3466.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T08:41:06.893892",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-simple-direct-note-on-daily-mindfulness",
+    "title": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/simple-direct-note-on-daily-mindfulness-3466.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T08:41:06.901402",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-sleep-nutrition-optimization-protocol",
+    "title": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/sleep-nutrition-optimization-protocol-3834.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T08:47:14.313506",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-simple-direct-note-on-daily-mindfulness",
+    "title": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/simple-direct-note-on-daily-mindfulness-3834.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T08:47:14.319100",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-sleep-nutrition-optimization-protocol",
+    "title": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/sleep-nutrition-optimization-protocol-4366.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T08:56:06.537320",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-simple-direct-note-on-daily-mindfulness",
+    "title": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/simple-direct-note-on-daily-mindfulness-4366.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T08:56:06.542945",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-sleep-nutrition-optimization-protocol",
+    "title": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/sleep-nutrition-optimization-protocol-5704.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T09:18:24.316805",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-simple-direct-note-on-daily-mindfulness",
+    "title": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/simple-direct-note-on-daily-mindfulness-5704.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T09:18:24.324549",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-sleep-nutrition-optimization-protocol",
+    "title": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/sleep-nutrition-optimization-protocol-6228.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T09:27:08.171839",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-simple-direct-note-on-daily-mindfulness",
+    "title": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/simple-direct-note-on-daily-mindfulness-6228.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T09:27:08.178003",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-sleep-nutrition-optimization-protocol",
+    "title": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/sleep-nutrition-optimization-protocol-7804.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T09:53:24.565194",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-simple-direct-note-on-daily-mindfulness",
+    "title": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/simple-direct-note-on-daily-mindfulness-7804.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T09:53:24.571308",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-sleep-nutrition-optimization-protocol",
+    "title": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/sleep-nutrition-optimization-protocol-8037.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T09:57:17.104586",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-simple-direct-note-on-daily-mindfulness",
+    "title": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/simple-direct-note-on-daily-mindfulness-8037.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-15T09:57:17.111099",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-sleep-nutrition-optimization-protocol",
+    "title": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/sleep-nutrition-optimization-protocol-871.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-21T19:31:11.109240",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-simple-direct-note-on-daily-mindfulness",
+    "title": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/simple-direct-note-on-daily-mindfulness-871.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-21T19:31:11.115935",
+    "status": "QUEUED"
+  }
+]

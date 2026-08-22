@@ -11,6 +11,7 @@ services:
     environment:
       N8N_HOST: ${N8N_HOST:?N8N_HOST must be set}
       N8N_PORT: ${N8N_PORT:-5678}
+      N8N_PATH: ${N8N_PATH:-/n8n/}
       N8N_PROTOCOL: ${N8N_PROTOCOL:-https}
       WEBHOOK_URL: ${WEBHOOK_URL:?WEBHOOK_URL must be set}
       N8N_EDITOR_BASE_URL: ${N8N_EDITOR_BASE_URL:?N8N_EDITOR_BASE_URL must be set}
@@ -74,7 +75,6 @@ services:
       LIFE_OS_STATUS_PORT: "8788"
       LIFE_OS_N8N_HEALTH_URL: http://n8n:5678/healthz
       LIFE_OS_YOUTUBE_HEALTH_URL: http://youtube-enricher:8080/health
-      LIFE_OS_OMNIROUTE_HEALTH_URL: http://omniroute:20128/
     volumes:
       - ./data:/n8n-data:ro
     tmpfs:

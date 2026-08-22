@@ -27,3 +27,18 @@ venv/
 # Editor
 .vscode/
 .idea/
+
+# Frontend dependencies
+
+node_modules/
+
+# Frontend build output
+
+.next/
+dist/
+.vinext/
+.wrangler/
+
+# Audit outputs
+
+audit_*.txt

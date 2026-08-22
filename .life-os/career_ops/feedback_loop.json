@@ -1,0 +1,666 @@
+{
+  "version": "1.0",
+  "total_applications": 82,
+  "rejections": [
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-13T03:31:03.032660+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-13T03:52:50.060823+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-13T04:02:28.716718+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-13T04:05:47.452898+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-13T04:08:41.692836+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-13T05:24:41.553065+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-13T05:55:44.299531+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-13T05:59:09.129218+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-13T05:59:43.996420+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-13T06:05:34.634527+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-13T06:11:18.043950+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-13T06:23:47.123373+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-13T06:28:28.438782+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-13T06:30:16.693339+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-13T06:35:53.372443+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-13T06:40:05.923395+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-13T06:43:57.581656+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-13T06:55:59.887459+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-13T07:18:12.657402+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-13T07:18:57.952193+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-13T07:19:18.302467+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-13T07:40:07.156727+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-13T08:40:00.701004+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-14T06:01:53.089226+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-14T07:21:02.159784+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-14T07:44:18.259463+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-14T07:51:21.481422+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-14T07:59:22.089944+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-14T08:00:53.308185+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-14T08:11:08.787251+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-14T08:11:43.316261+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-14T08:18:25.794895+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-14T08:32:00.106459+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-14T08:39:46.834823+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-14T08:45:14.231583+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-14T08:50:38.811958+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-14T08:57:22.061048+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-14T09:06:18.395210+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-14T09:09:41.112953+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-14T09:28:07.897442+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-14T09:33:24.507617+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-14T09:43:16.253248+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-14T09:53:06.612878+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-14T10:50:05.289640+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-14T10:51:55.863924+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-14T11:25:23.135303+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-14T11:25:59.911582+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-14T11:57:21.486898+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-14T12:04:03.823684+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-14T12:12:58.024451+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-14T12:13:14.070287+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-14T12:13:32.662672+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-14T12:13:48.167936+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-14T12:14:07.494752+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-14T12:19:19.756844+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-14T12:42:19.096999+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-15T07:14:25.111297+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-15T07:24:29.191247+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-15T07:29:09.095770+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-15T07:32:56.211524+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-15T07:50:19.965306+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-15T07:54:24.335706+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-15T07:56:27.808752+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-15T07:59:09.098999+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-15T08:07:51.396727+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-15T08:09:54.952351+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-15T08:12:24.890508+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-15T08:13:30.891490+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-15T08:19:12.924889+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-15T08:23:11.568722+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-15T08:31:23.011084+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-15T08:34:08.335622+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-15T08:36:25.522504+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-15T08:38:02.305203+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-15T08:41:03.006648+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-15T08:47:10.687389+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-15T08:56:02.763377+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-15T09:18:19.996206+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-15T09:27:04.522829+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-15T09:53:20.645206+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-15T09:57:13.181939+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-21T19:31:05.420067+05:30"
+    }
+  ],
+  "interviews": [],
+  "keyword_penalties": {},
+  "learned_rules": [
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co",
+    "Strict degree rejection confirmed at Test Co"
+  ]
+}

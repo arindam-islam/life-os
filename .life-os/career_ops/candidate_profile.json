@@ -1,0 +1,57 @@
+{
+  "candidate": {
+    "experience_years": 7,
+    "degree_status": "NO_FORMAL_DEGREE",
+    "target_ctc_lpa": 18.0,
+    "min_ctc_lpa_floor": 16.5,
+    "location": {
+      "city": "Bangalore",
+      "allowed_modes": ["ONSITE", "HYBRID", "REMOTE"]
+    },
+    "domain_preferences_ranked": [
+      {
+        "rank": 1,
+        "name": "Parking SaaS",
+        "examples": ["GMP", "Park+", "competitors"]
+      },
+      {
+        "rank": 2,
+        "name": "Quick Commerce & Food Delivery",
+        "examples": ["Blinkit", "Zomato", "Zepto", "Swiggy"]
+      },
+      {
+        "rank": 3,
+        "name": "Mobility & Micro-Mobility",
+        "examples": ["Yulu", "Bounce", "Zypp", "Rapido", "Namma Yatri", "Ola", "Uber"]
+      },
+      {
+        "rank": 4,
+        "name": "Fintech",
+        "examples": ["Paytm", "PhonePe", "Razorpay", "CRED"]
+      },
+      {
+        "rank": 5,
+        "name": "E-Commerce",
+        "examples": ["Flipkart", "Amazon", "Meesho"]
+      },
+      {
+        "rank": 6,
+        "name": "Other Tech Domains & Organisations",
+        "examples": ["General B2B/B2C tech startups"]
+      }
+    ],
+    "strict_degree_filter": {
+      "reject_mandatory_degree": true,
+      "allow_equivalent_experience": true,
+      "allow_no_degree_mentioned": true
+    },
+    "target_portals": [
+      "LinkedIn",
+      "Indeed",
+      "Naukri",
+      "Weekday",
+      "Wellfound"
+    ],
+    "matching_strategy": "RESPONSIBILITY_AND_CAPABILITY_ALIGNMENT"
+  }
+}
