@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "total_applications": 82,
+  "total_applications": 83,
   "rejections": [
     {
       "job_id": "TEST-001",
@@ -575,11 +575,19 @@
       "outcome": "REJECTED",
       "reason": "Strict degree requirement missing",
       "timestamp": "2026-08-21T19:31:05.420067+05:30"
+    },
+    {
+      "job_id": "TEST-001",
+      "company": "Test Co",
+      "outcome": "REJECTED",
+      "reason": "Strict degree requirement missing",
+      "timestamp": "2026-08-23T00:48:37.559241+05:30"
     }
   ],
   "interviews": [],
   "keyword_penalties": {},
   "learned_rules": [
+    "Strict degree rejection confirmed at Test Co",
     "Strict degree rejection confirmed at Test Co",
     "Strict degree rejection confirmed at Test Co",
     "Strict degree rejection confirmed at Test Co",

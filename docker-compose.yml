@@ -13,7 +13,7 @@ services:
       N8N_PORT: ${N8N_PORT:-5678}
       N8N_PATH: ${N8N_PATH:-/n8n/}
       N8N_PROTOCOL: ${N8N_PROTOCOL:-https}
-      WEBHOOK_URL: ${WEBHOOK_URL:?WEBHOOK_URL must be set}
+      N8N_WEBHOOK_URL: ${N8N_WEBHOOK_URL:-http://localhost:5678/}
       N8N_EDITOR_BASE_URL: ${N8N_EDITOR_BASE_URL:?N8N_EDITOR_BASE_URL must be set}
       N8N_RESTRICT_FILE_ACCESS_TO: ${N8N_RESTRICT_FILE_ACCESS_TO:-/files}
     volumes:
@@ -76,7 +76,7 @@ services:
       LIFE_OS_N8N_HEALTH_URL: http://n8n:5678/healthz
       LIFE_OS_YOUTUBE_HEALTH_URL: http://youtube-enricher:8080/health
     volumes:
-      - ./data:/n8n-data:ro
+      - ./data:/n8n-data
     tmpfs:
       - /tmp:size=16m,mode=1777
     security_opt:
@@ -102,6 +102,7 @@ services:
   status-view:
     build:
       context: ./status-view
+      dockerfile: Dockerfile
     container_name: life-os-status-view
     restart: unless-stopped
     ports:
@@ -109,6 +110,8 @@ services:
     environment:
       NODE_ENV: production
       PORT: "3000"
+      LIFE_OS_STATUS_URL: http://status-bridge:8788/life-os/status
+      LIFE_OS_STATUS_TOKEN: ${LIFE_OS_STATUS_TOKEN}
     logging:
       driver: json-file
       options:

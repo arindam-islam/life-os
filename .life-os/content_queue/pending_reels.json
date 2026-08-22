@@ -3939,5 +3939,76 @@
     },
     "queued_at": "2026-08-21T19:31:11.115935",
     "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-sleep-nutrition-optimization-protocol",
+    "title": "Sleep & Nutrition Optimization Protocol",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/sleep-nutrition-optimization-protocol-6320.md",
+    "script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "queued_at": "2026-08-23T00:48:40.981183",
+    "status": "QUEUED"
+  },
+  {
+    "reel_id": "REEL-simple-direct-note-on-daily-mindfulness",
+    "title": "Simple direct note on daily mindfulness ...",
+    "area": "health_wellness",
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/simple-direct-note-on-daily-mindfulness-6320.md",
+    "script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "queued_at": "2026-08-23T00:48:40.988863",
+    "status": "QUEUED"
   }
 ]

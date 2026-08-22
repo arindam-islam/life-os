@@ -5543,5 +5543,106 @@
       ]
     },
     "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/simple-direct-note-on-daily-mindfulness-871.md"
+  },
+  {
+    "title": "Sleep & Nutrition Optimization Protocol",
+    "domain": "HEALTH_WELLNESS",
+    "resource_type": "PDF_DOCUMENT",
+    "url_or_path": "circadian_guide.pdf",
+    "uploader": "Dr. Wellness",
+    "summary_5min": "Simple 5-minute summary explaining light exposure timing.",
+    "trust_score": 90,
+    "verification_status": "VERIFIED_AUTHENTIC",
+    "verification_rationale": "Verified peer-reviewed evidence.",
+    "concept_explanation": "Viewing morning light sets the master clock.",
+    "current_state_context": "Dim indoor light delays sleep phase shift.",
+    "solution_and_how_to": "Go outside 10 minutes every morning.",
+    "measurement_metrics": "Track wakefulness score.",
+    "long_term_growth_wealth": "High physical energy fuels sustained execution.",
+    "key_deliverables": [
+      "1. Morning Light Protocol Checklist",
+      "2. Faceless Reel Script"
+    ],
+    "reel_script": {
+      "topic": "Sleep & Nutrition Optimization Protocol",
+      "duration": 30.0,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 5.0,
+          "type": "HOOK",
+          "text": "Do this every morning!"
+        }
+      ]
+    },
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/sleep-nutrition-optimization-protocol-6320.md"
+  },
+  {
+    "id": "RES-1787426320",
+    "title": "Simple direct note on daily mindfulness ...",
+    "resource_type": "DIRECT_NOTE",
+    "domain": "HEALTH_WELLNESS",
+    "url_or_path": "Simple direct note on daily mindfulness and vitamin practices",
+    "uploader": "Life OS Ingestion Pipeline",
+    "captured_at": "2026-08-23T00:48:40.984272",
+    "summary_5min": "This resource (DIRECT_NOTE) explains 'Simple direct note on daily mindfulness ...'. Key takeaway: Simple direct note on daily mindfulness and vitamin practices. Provides clear practical steps to optimize daily workflow and eliminate manual bottlenecks.",
+    "trust_score": 90,
+    "verification_status": "VERIFIED_AUTHENTIC",
+    "verification_rationale": "Passed Authenticity Wall. Verified content structure from source 'Life OS Ingestion Pipeline'.",
+    "concept_explanation": "Core concept presented by Life OS Ingestion Pipeline: Simple direct note on daily mindfulness and vitamin practices",
+    "current_state_context": "Current state: Manual fragmented execution causing friction and delayed output.",
+    "solution_and_how_to": "Implementation steps: 1. Process raw input via Life OS pipeline. 2. Store verified dossier in Area resources. 3. Render 9:16 Faceless Reel.",
+    "measurement_metrics": "Measurement KPIs: Execution time under 5 minutes, 100% test pass rate, zero host cost.",
+    "long_term_growth_wealth": "Growth & Wealth Strategy: Consistently publish automated 9:16 reels and build durable knowledge assets to compound brand value over time.",
+    "key_deliverables": [
+      "1. Verified Resource Dossier in `.life-os/areas/health_wellness/resources/`",
+      "2. Auto-Generated Faceless Reel Script (9:16 format)",
+      "3. Social Post Draft Package for LinkedIn & Twitter/X"
+    ],
+    "transcript": "",
+    "reel_script": {
+      "topic": "Simple direct note on daily mindfulness ...",
+      "duration": 30.0,
+      "full_text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything. First, automation eliminates repetitive manual tasks and saves hours daily. Second, AI content pipelines scale your brand at zero additional cost. Third, autonomous workflows run 24/7 so you focus on high-value strategy. Follow Life OS and visit arindamislam.duckdns.org for full details!",
+      "segments": [
+        {
+          "id": 1,
+          "type": "HOOK",
+          "text": "Stop scrolling! Here is how Simple direct note on daily mindfulness ... changes everything.",
+          "start": 0.0,
+          "end": 5.0
+        },
+        {
+          "id": 2,
+          "type": "POINT_1",
+          "text": "First, automation eliminates repetitive manual tasks and saves hours daily.",
+          "start": 5.0,
+          "end": 12.0
+        },
+        {
+          "id": 3,
+          "type": "POINT_2",
+          "text": "Second, AI content pipelines scale your brand at zero additional cost.",
+          "start": 12.0,
+          "end": 20.0
+        },
+        {
+          "id": 4,
+          "type": "POINT_3",
+          "text": "Third, autonomous workflows run 24/7 so you focus on high-value strategy.",
+          "start": 20.0,
+          "end": 26.0
+        },
+        {
+          "id": 5,
+          "type": "CTA",
+          "text": "Follow Life OS and visit arindamislam.duckdns.org for full details!",
+          "start": 26.0,
+          "end": 30.0
+        }
+      ]
+    },
+    "dossier_path": "/Users/ari/Documents/life-os/.life-os/areas/health_wellness/resources/simple-direct-note-on-daily-mindfulness-6320.md"
   }
 ]

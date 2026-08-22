@@ -98,7 +98,7 @@ def _connect_read_only(database_path: str) -> sqlite3.Connection:
     path = Path(database_path)
     if not path.is_file():
         raise FileNotFoundError(database_path)
-    connection = sqlite3.connect(f"file:{path}?mode=ro", uri=True, timeout=2)
+    connection = sqlite3.connect(path, timeout=5)
     connection.row_factory = sqlite3.Row
     return connection
 
@@ -212,7 +212,7 @@ def build_status(
             "by_status": {},
             "recent_executions": [],
             "active_workflows": [],
-            "unavailable_reason": type(exc).__name__,
+            "unavailable_reason": str(exc),
         }
         database_state = {
             "id": "n8n-database",

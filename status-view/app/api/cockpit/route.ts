@@ -196,13 +196,20 @@ async function loadCockpit(): Promise<CockpitSnapshot> {
   }
 
   try {
-    if (new URL(bridgeUrl).protocol !== "https:") {
-      return fallbackSnapshot(
-        "The live bridge URL is not using the required secure connection. Showing the reviewed source snapshot.",
-        servedAt,
-      );
-    }
-  } catch {
+  const parsedBridgeUrl = new URL(bridgeUrl);
+
+  const isProductionSecure = parsedBridgeUrl.protocol === "https:";
+  const isLocalDockerBridge =
+    parsedBridgeUrl.protocol === "http:" &&
+    parsedBridgeUrl.hostname === "status-bridge";
+
+  if (!isProductionSecure && !isLocalDockerBridge) {
+    return fallbackSnapshot(
+      "The live bridge URL is not using an approved secure connection. Showing the reviewed source snapshot.",
+      servedAt,
+    );
+  }
+} catch {
     return fallbackSnapshot(
       "The live bridge URL is invalid. Showing the reviewed source snapshot.",
       servedAt,
