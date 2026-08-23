@@ -47,7 +47,7 @@ test("serves the reviewed cockpit snapshot through a read-only endpoint", async 
   assert.equal(payload.telemetry.status, "fallback");
   assert.equal(payload.asOf, "2026-08-12");
   assert.equal(payload.components.find((item) => item.id === "youtube-enricher").state, "healthy");
-  assert.equal(payload.components.find((item) => item.id === "slack-inbox").state, "healthy");
+  assert.equal(payload.components.find((item) => item.id === "capture-processor").state, "healthy");
   assert.equal(payload.requiredFeeds.every((feed) => feed.state === "missing"), true);
   assert.equal(payload.processing.source, "unavailable");
   assert.equal(typeof payload.servedAt, "string");
@@ -75,7 +75,7 @@ test("keeps provenance explicit and removes starter-only assets", async () => {
   assert.match(page, /\/api\/cockpit/);
   assert.match(page, /30 \* 1000/);
   assert.match(data, /Production acceptance handoff/);
-  assert.match(data, /slack-resource-inbox\/README\.md \+ DEPLOYMENT\.md/);
+  assert.match(data, /Current system state/);
   assert.match(data, /Required live source/);
   assert.match(layout, /title: "Life OS Control View"/);
   assert.doesNotMatch(page + data + layout + packageJson, /codex-preview|react-loading-skeleton/i);

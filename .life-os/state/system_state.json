@@ -18,13 +18,6 @@
       "version": "1.0.0",
       "container_id": "5a6e28594a4d"
     },
-    "slack-resource-inbox": {
-      "status": "PREPARED",
-      "verification": "LOCAL_VALIDATION",
-      "health": "READY",
-      "workflow_id": "slack_resource_inbox_v1",
-      "deployment_state": "PAUSED_PENDING_APPROVAL"
-    },
     "status-bridge": {
       "status": "DEPLOYED",
       "verification": "VERIFIED_LIVE",
@@ -48,7 +41,7 @@
   },
   "tracks": {
     "Track A (Ingestion)": "VERIFIED_LIVE",
-    "Track B (Slack Capture)": "VERIFIED_LIVE",
+    "Track B (Resource Capture)": "READY",
     "Track C (Cockpit Dashboard)": "VERIFIED_LIVE",
     "Track D (Enrichment)": "VERIFIED_LIVE",
     "Track E (Agent Architecture)": "VERIFIED_LIVE",
