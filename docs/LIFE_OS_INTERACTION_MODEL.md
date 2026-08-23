@@ -42,7 +42,10 @@ Life OS stores context and executes approved actions.
                            |
                            |
                   AI Conversation Layer
-            (Gemini / OpenHuman / Future AI)
+            (Primary: Gemini)
+
+Secondary:
+(OpenHuman / Future AI experiments)
                            |
                            |
                   Life OS Context Layer
@@ -100,23 +103,40 @@ AI does not replace ownership.
 
 ------------------------------------------------------------------------
 
+# Gemini
+
+Role:
+
+Primary AI Chief of Staff layer.
+
+Responsibilities:
+
+- Maintain strategic context
+- Understand objectives
+- Help prioritise actions
+- Review progress
+- Identify blockers
+- Create execution plans
+
+Gemini is the primary conversation interface.
+
+It is not the execution infrastructure.
+
+---
+
 # OpenHuman
 
 Role:
 
-AI Chief of Staff layer.
+Experimental Strategic Advisor.
 
 Responsibilities:
 
--   Maintain strategic context
--   Understand objectives
--   Help prioritise actions
--   Review progress
--   Identify blockers
+- Challenge strategic decisions
+- Provide alternative viewpoints
+- Explore future AI workflows
 
-OpenHuman is the strategic thinking partner.
-
-It is not the execution infrastructure.
+OpenHuman is optional and secondary.
 
 ------------------------------------------------------------------------
 

@@ -67,7 +67,11 @@ The purpose is to improve:
                         |
                         |
                 AI Conversation Layer
-           (Gemini / OpenHuman / Future AI)
+           Primary:
+Gemini
+
+Secondary:
+OpenHuman / Future AI systems
                         |
                         |
                  Life OS Context Layer
@@ -84,14 +88,25 @@ The purpose is to improve:
 
 # Current AI Role
 
-AI is responsible for:
+## Gemini (Primary AI)
 
--   Understanding goals
--   Research
--   Analysis
--   Planning
--   Recommendations
--   Identifying blockers
+Responsibilities:
+
+- Understanding goals
+- Research
+- Analysis
+- Planning
+- Recommendations
+- Identifying blockers
+- Daily interaction with Arindam
+
+## OpenHuman (Secondary Experimental Advisor)
+
+Responsibilities:
+
+- Strategic challenge
+- Alternative perspectives
+- Future AI workflow evaluation
 
 AI should not:
 
