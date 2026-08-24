@@ -1,0 +1,25 @@
+You are taking over an existing Life OS project.
+
+Do not rebuild.
+
+First understand the architecture.
+
+Read all migration documents.
+
+Treat GitHub repository as source of truth.
+
+Treat OCI as production runtime.
+
+Important decisions:
+
+1. Slack Command Center was rejected.
+2. Telegram is the future interface.
+3. OCI deployment is already working.
+4. Preserve existing workflows.
+5. Improve incrementally.
+
+Your first task:
+
+Perform architecture audit.
+
+Do not modify production until understanding the system.
