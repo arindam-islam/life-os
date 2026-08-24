@@ -1,9 +1,4 @@
-# Status: PREPARED_UNCOMMITTED
-# Note: This workflow is an uncommitted local specification.
-# It becomes an enforced GitHub check ONLY after being committed to main, pushed to GitHub,
-# and configured as a required status check in repository branch protection rules.
-
-name: Life OS Release Gate & State Machine Enforcement (Prepared)
+name: Life OS Release Gate & State Machine Enforcement
 
 on:
   push:
@@ -32,9 +27,13 @@ jobs:
         run: |
           python3 -m unittest discover -s tests -v
 
-      - name: Run Slack Resource Inbox Package Tests
+      - name: Run Slack Resource Inbox Tests (if active)
         run: |
-          python3 -m unittest discover -s slack-resource-inbox/tests -v
+          if [ -d "slack-resource-inbox/tests" ]; then
+            python3 -m unittest discover -s slack-resource-inbox/tests -v
+          else
+            echo "Slack Resource Inbox is archived. Skipping archived component tests."
+          fi
 
       - name: Run Status Bridge Unit Tests
         run: |
