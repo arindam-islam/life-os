@@ -1,83 +1,71 @@
 [
   {
     "goal_id": "GOAL-001",
-    "title": "₹15 Lakhs Net Revenue Target by Dec 31, 2026",
+    "title": "Career Stability and Income",
+    "category": "CAREER_WEALTH",
+    "status": "ACTIVE",
+    "target_date": null,
+    "budget_cap": null,
+    "description": "Secure a strong Product / Technical Operations opportunity with a target compensation range of ₹16.5 LPA - ₹20 LPA.",
+    "kpis": [
+      "Relevant applications completed",
+      "Recruiter responses generated",
+      "Interview opportunities created",
+      "Offer received and accepted within target range"
+    ],
+    "slug": "goal-001-career-stability-income",
+    "file_path": ".life-os/goals/goal-001-career-stability-income.md"
+  },
+  {
+    "goal_id": "GOAL-002",
+    "title": "Revenue Generation",
     "category": "CAREER_WEALTH",
     "status": "ACTIVE",
     "target_date": "2026-12-31",
     "budget_cap": "$0 Host Cost (Oracle Cloud Free Tier)",
-    "description": "Monetize B2B automation services, digital AI tools, and content engine to generate ₹15 Lakhs net revenue.",
+    "description": "Create validated revenue opportunities through automation services, AI workflow solutions, content systems, digital products, and other validated opportunities.",
     "kpis": [
-      "₹15,00,000 Total Net Revenue",
-      "$0 Infrastructure Host Expenses",
-      "3 Paid B2B Retainers ($1,500/mo)"
+      "First revenue generated",
+      "Customer validation achieved",
+      "Repeatable revenue process created",
+      "₹15,00,000 Total Net Revenue Target by December 31, 2026"
     ],
-    "slug": "goal-001-revenue-15L-dec-2026",
-    "file_path": "/Users/ari/Documents/life-os/.life-os/goals/goal-001-revenue-15L-dec-2026.md"
-  },
-  {
-    "goal_id": "GOAL-002",
-    "title": "Autonomous Faceless AI Video & Shorts Engine",
-    "category": "CREATIVE_CONVERSATIONS",
-    "status": "ACTIVE",
-    "target_date": "2026-09-30",
-    "budget_cap": "$0 Host Cost",
-    "description": "Build an end-to-end automated script-to-video pipeline rendering 9:16 vertical reels and shorts for YouTube and Instagram.",
-    "kpis": [
-      "1 Daily Automated Reel Rendered",
-      "Zero Manual Editing Required",
-      "10,000+ Total Views Across Channels"
-    ],
-    "slug": "goal-002-faceless-ai-content-engine",
-    "file_path": "/Users/ari/Documents/life-os/.life-os/goals/goal-002-faceless-ai-content-engine.md"
+    "slug": "goal-002-revenue-generation",
+    "file_path": ".life-os/goals/goal-002-revenue-generation.md"
   },
   {
     "goal_id": "GOAL-003",
-    "title": "24/7 Mobile Slack Command Center & Thread Workforce",
-    "category": "AI_AUTOMATION",
+    "title": "Reliable Life OS Foundation",
+    "category": "SYSTEM_FOUNDATION",
     "status": "ACTIVE",
-    "target_date": "2026-08-31",
+    "target_date": null,
     "budget_cap": "$0 Host Cost",
-    "description": "Deploy autonomous Slack workforce agents on Oracle VM. Enable conversational execution via thread replies ('Alright let's do it').",
+    "description": "Maintain a trustworthy personal operating system providing persistent memory, goal tracking, workflow execution, evidence collection, and learning.",
     "kpis": [
-      "24/7 Up-Time on Oracle VM",
-      "<10s Thread Reaction Time",
-      "Zero MacBook Dependency for Remote Commands"
+      "Persistent memory available",
+      "Goal tracking operational",
+      "Workflow execution verified",
+      "Evidence collection maintained",
+      "Learning loop established"
     ],
-    "slug": "goal-003-mobile-slack-command-center",
-    "file_path": "/Users/ari/Documents/life-os/.life-os/goals/goal-003-mobile-slack-command-center.md"
+    "slug": "goal-003-life-os-foundation",
+    "file_path": ".life-os/goals/goal-003-life-os-foundation.md"
   },
   {
     "goal_id": "GOAL-004",
-    "title": "Multimodal Ingestion Pipeline & Verification Wall",
-    "category": "PRODUCTIVITY_HACKS",
+    "title": "AI Capability Expansion",
+    "category": "AI_CAPABILITY",
     "status": "ACTIVE",
-    "target_date": "2026-08-31",
+    "target_date": null,
     "budget_cap": "$0 Host Cost",
-    "description": "Ingest YouTube, LinkedIn, Instagram, PDFs, and spoken audio into clean area resource dossiers passing the Authenticity Wall.",
+    "description": "Improve decision quality and execution speed through controlled AI capabilities while maintaining human ownership.",
     "kpis": [
-      "100% Ingested Resources Categorized",
-      "0 Fake/Bait Content Admitted",
-      "Human-Readable Dossier Paths Generated"
+      "Better reasoning support",
+      "Better planning workflows",
+      "Controlled AI integrations",
+      "Improved execution support"
     ],
-    "slug": "goal-004-multimodal-ingestion-verification-wall",
-    "file_path": "/Users/ari/Documents/life-os/.life-os/goals/goal-004-multimodal-ingestion-verification-wall.md"
-  },
-  {
-    "goal_id": "GOAL-005",
-    "title": "End-to-End Automated Testing for Bridge Webhook",
-    "category": "RELIABILITY_TESTING",
-    "status": "ACTIVE",
-    "target_date": "2026-08-16",
-    "budget_cap": "$0 Host Cost",
-    "description": "Set up end-to-end automated testing for Status Bridge webhook by tomorrow evening, verifying HMAC auth, payload ingestion, state updates, and test suite execution.",
-    "kpis": [
-      "HTTP 200 OK on mock webhook payload",
-      "HMAC Bearer authentication verified",
-      "<500ms processing and state propagation",
-      "100% passing automated test suite"
-    ],
-    "slug": "goal-005-bridge-webhook-e2e-testing",
-    "file_path": "/Users/ari/Documents/life-os/.life-os/goals/goal-005-bridge-webhook-e2e-testing.md"
+    "slug": "goal-004-ai-capability-expansion",
+    "file_path": ".life-os/goals/goal-004-ai-capability-expansion.md"
   }
 ]
