@@ -6,22 +6,42 @@ Unit test suite for Life OS Gemini <-> Antigravity 'agy' Keyword Activation Brid
 import unittest
 import os
 import sys
+import tempfile
+from unittest.mock import patch
 
 SYS_PATH = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if SYS_PATH not in sys.path:
     sys.path.insert(0, SYS_PATH)
 
-from archive.prototypes.gemini_antigravity_bridge import dispatch_agy_command, BRIDGE_STATE_PATH, NOTES_INDEX_PATH, load_json
+from archive.prototypes.gemini_antigravity_bridge import dispatch_agy_command, load_json
+import archive.prototypes.gemini_antigravity_bridge as bridge_module
 
 
 class TestGeminiBridgeAGY(unittest.TestCase):
+
+    def setUp(self):
+        self.tmp_dir = tempfile.TemporaryDirectory()
+        self.temp_notes_path = os.path.join(self.tmp_dir.name, "notes_index.json")
+        self.temp_bridge_path = os.path.join(self.tmp_dir.name, "gemini_bridge_state.json")
+
+        self.patcher_notes = patch.object(bridge_module, "NOTES_INDEX_PATH", self.temp_notes_path)
+        self.patcher_bridge = patch.object(bridge_module, "BRIDGE_STATE_PATH", self.temp_bridge_path)
+
+        self.patcher_notes.start()
+        self.patcher_bridge.start()
+
+    def tearDown(self):
+        self.patcher_notes.stop()
+        self.patcher_bridge.stop()
+        self.tmp_dir.cleanup()
 
     def test_agy_make_note(self):
         record = dispatch_agy_command("agy make a note of this ideal faceless channel prompt setup")
         self.assertEqual(record["trigger"], "agy")
         self.assertEqual(record["intent"], "NOTE_SAVED")
-        notes = load_json(NOTES_INDEX_PATH, default=[])
+        notes = load_json(bridge_module.NOTES_INDEX_PATH, default=[])
         self.assertGreater(len(notes), 0)
+        self.assertEqual(notes[0]["content"], "ideal faceless channel prompt setup")
 
     def test_agy_tasks_left(self):
         record = dispatch_agy_command("agy what are todays tasks left")
