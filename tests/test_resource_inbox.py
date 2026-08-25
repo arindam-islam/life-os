@@ -7,11 +7,14 @@ import os
 import sys
 import json
 import unittest
+import tempfile
+from unittest.mock import patch
 from pathlib import Path
 
 # Add project root to sys.path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
+import scripts.domain_distribution_engine as domain_engine
 from scripts.resource_inbox_router import (
     clean_social_fluff,
     run_authenticity_verification_wall,
@@ -21,12 +24,40 @@ from scripts.resource_inbox_router import (
 
 from scripts.domain_distribution_engine import (
     distribute_resource_to_area,
-    AREAS_MAP,
-    AREAS_DIR
+    AREAS_MAP
 )
 
 
 class TestResourceInboxEngine(unittest.TestCase):
+
+    def setUp(self):
+        self.tmp_dir = tempfile.TemporaryDirectory()
+        tmp_path = Path(self.tmp_dir.name)
+        self.temp_life_os_dir = tmp_path / ".life-os"
+        self.temp_areas_dir = self.temp_life_os_dir / "areas"
+        self.temp_knowledge_dir = self.temp_life_os_dir / "knowledge"
+        self.temp_master_index = self.temp_knowledge_dir / "ingested_resources.json"
+        self.temp_pending_reels = self.temp_life_os_dir / "content_queue" / "pending_reels.json"
+
+        self.patcher_areas = patch.object(domain_engine, "AREAS_DIR", self.temp_areas_dir)
+        self.patcher_life_os = patch.object(domain_engine, "LIFE_OS_DIR", self.temp_life_os_dir)
+        self.patcher_knowledge = patch.object(domain_engine, "KNOWLEDGE_DIR", self.temp_knowledge_dir)
+        self.patcher_master = patch.object(domain_engine, "MASTER_INDEX_PATH", self.temp_master_index)
+        self.patcher_reels = patch.object(domain_engine, "PENDING_REELS_PATH", self.temp_pending_reels)
+
+        self.patcher_areas.start()
+        self.patcher_life_os.start()
+        self.patcher_knowledge.start()
+        self.patcher_master.start()
+        self.patcher_reels.start()
+
+    def tearDown(self):
+        self.patcher_areas.stop()
+        self.patcher_life_os.stop()
+        self.patcher_knowledge.stop()
+        self.patcher_master.stop()
+        self.patcher_reels.stop()
+        self.tmp_dir.cleanup()
 
     def test_clean_social_fluff(self):
         raw = "Check out this AI hack! Comment YES to get DM link! Follow for more tips and save this reel!"
